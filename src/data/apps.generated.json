@@ -1,0 +1,507 @@
+[
+  {
+    "appId": "6749094726",
+    "name": "WatchThis: What friends watch",
+    "appStoreUrl": "https://apps.apple.com/us/app/watchthis-what-friends-watch/id6749094726?uo=4",
+    "icon": "/assets/apps/watchthis-what-friends-watch/icon.jpg",
+    "description": "WatchThis helps people discover highly rated movies and TV shows through trusted recommendations from friends, combining social reviews, watchlist tools, and streaming availability into a more personal alternative to algorithm-driven browsing.",
+    "screenshots": [
+      "/assets/apps/watchthis-what-friends-watch/screenshot-1.jpg",
+      "/assets/apps/watchthis-what-friends-watch/screenshot-2.jpg",
+      "/assets/apps/watchthis-what-friends-watch/screenshot-3.jpg"
+    ],
+    "genre": "Entertainment",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.1"
+  },
+  {
+    "appId": "6762139996",
+    "name": "Inventory Scanner: Organizer",
+    "appStoreUrl": "https://apps.apple.com/us/app/inventory-scanner-organizer/id6762139996?uo=4",
+    "icon": "/assets/apps/inventory-scanner-organizer/icon.jpg",
+    "description": "Inventory Scanner: Organizer turns your iPhone into a practical cataloging tool for tracking products and household items, making it easier to scan, organize, and maintain a clear record of what you own or manage.",
+    "screenshots": [
+      "/assets/apps/inventory-scanner-organizer/screenshot-1.jpg",
+      "/assets/apps/inventory-scanner-organizer/screenshot-2.jpg",
+      "/assets/apps/inventory-scanner-organizer/screenshot-3.jpg"
+    ],
+    "genre": "Utilities",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "1191100729",
+    "name": "Stats -- For your Tesla",
+    "appStoreUrl": "https://apps.apple.com/us/app/stats-for-your-tesla/id1191100729?uo=4",
+    "icon": "/assets/apps/stats-for-your-tesla/icon.jpg",
+    "description": "Stats -- For your Tesla gives Tesla owners a detailed companion for monitoring vehicle health, driving data, and charging information, all in a polished mobile dashboard built around useful day-to-day insights.",
+    "screenshots": [
+      "/assets/apps/stats-for-your-tesla/screenshot-1.jpg",
+      "/assets/apps/stats-for-your-tesla/screenshot-2.jpg",
+      "/assets/apps/stats-for-your-tesla/screenshot-3.jpg"
+    ],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "6.2.33"
+  },
+  {
+    "appId": "6584513715",
+    "name": "NoSpamSMS: Stop Spam Messages",
+    "appStoreUrl": "https://apps.apple.com/us/app/nospamsms-stop-spam-messages/id6584513715?uo=4",
+    "icon": "/assets/apps/nospamsms-stop-spam-messages/icon.jpg",
+    "description": "NoSpamSMS: Stop Spam Messages is built to reduce message clutter by helping users detect and block unwanted SMS conversations, creating a cleaner inbox and a safer messaging experience.",
+    "screenshots": [
+      "/assets/apps/nospamsms-stop-spam-messages/screenshot-1.jpg",
+      "/assets/apps/nospamsms-stop-spam-messages/screenshot-2.jpg",
+      "/assets/apps/nospamsms-stop-spam-messages/screenshot-3.jpg"
+    ],
+    "genre": "Utilities",
+    "formattedPrice": "$2.99",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.3"
+  },
+  {
+    "appId": "1592555877",
+    "name": "Climb Meter: For rock climbing",
+    "appStoreUrl": "https://apps.apple.com/us/app/climb-meter-for-rock-climbing/id1592555877?uo=4",
+    "icon": "/assets/apps/climb-meter-for-rock-climbing/icon.jpg",
+    "description": "Climb Meter: For rock climbing supports climbers with tools tailored to training, route tracking, and performance awareness, giving them a focused mobile companion for improving technique and consistency.",
+    "screenshots": [
+      "/assets/apps/climb-meter-for-rock-climbing/screenshot-1.jpg",
+      "/assets/apps/climb-meter-for-rock-climbing/screenshot-2.jpg",
+      "/assets/apps/climb-meter-for-rock-climbing/screenshot-3.jpg"
+    ],
+    "genre": "Sports",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "2.5"
+  },
+  {
+    "appId": "6751619063",
+    "name": "Posture Monitor",
+    "appStoreUrl": "https://apps.apple.com/us/app/posture-monitor/id6751619063?mt=12&uo=4",
+    "icon": "/assets/apps/posture-monitor/icon.jpg",
+    "description": "Posture Monitor helps users build better physical habits by tracking posture awareness and encouraging more consistent alignment throughout the day.",
+    "screenshots": [
+      "/assets/apps/posture-monitor/screenshot-1.jpg",
+      "/assets/apps/posture-monitor/screenshot-2.jpg",
+      "/assets/apps/posture-monitor/screenshot-3.jpg"
+    ],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "2.2"
+  },
+  {
+    "appId": "6759739810",
+    "name": "Recap: Snap & get the story",
+    "appStoreUrl": "https://apps.apple.com/us/app/recap-snap-get-the-story/id6759739810?uo=4",
+    "icon": "/assets/apps/recap-snap-get-the-story/icon.jpg",
+    "description": "Recap: Snap & get the story uses AI to turn a photo into quick context and understanding, helping users capture an image and immediately get a useful explanation of what they are seeing.",
+    "screenshots": [
+      "/assets/apps/recap-snap-get-the-story/screenshot-1.jpg",
+      "/assets/apps/recap-snap-get-the-story/screenshot-2.jpg",
+      "/assets/apps/recap-snap-get-the-story/screenshot-3.jpg"
+    ],
+    "genre": "Entertainment",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "6757448973",
+    "name": "Fund Compare: for investors",
+    "appStoreUrl": "https://apps.apple.com/us/app/fund-compare-for-investors/id6757448973?uo=4",
+    "icon": "/assets/apps/fund-compare-for-investors/icon.jpg",
+    "description": "Fund Compare: for investors helps users evaluate funds side by side, making it easier to compare performance, characteristics, and investment options in one streamlined research experience.",
+    "screenshots": [
+      "/assets/apps/fund-compare-for-investors/screenshot-1.jpg",
+      "/assets/apps/fund-compare-for-investors/screenshot-2.jpg",
+      "/assets/apps/fund-compare-for-investors/screenshot-3.jpg"
+    ],
+    "genre": "Finance",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  },
+  {
+    "appId": "6450682444",
+    "name": "Fluenta: Spanish Chat & News",
+    "appStoreUrl": "https://apps.apple.com/us/app/fluenta-spanish-chat-news/id6450682444?uo=4",
+    "icon": "/assets/apps/fluenta-spanish-chat-news/icon.jpg",
+    "description": "Fluenta: Spanish Chat & News combines language practice with real-world content, giving learners a more natural way to improve Spanish through conversation, reading, and current topics.",
+    "screenshots": [
+      "/assets/apps/fluenta-spanish-chat-news/screenshot-1.jpg",
+      "/assets/apps/fluenta-spanish-chat-news/screenshot-2.jpg",
+      "/assets/apps/fluenta-spanish-chat-news/screenshot-3.jpg"
+    ],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "2.3"
+  },
+  {
+    "appId": "6746461783",
+    "name": "Wine List: Order confidently",
+    "appStoreUrl": "https://apps.apple.com/us/app/wine-list-order-confidently/id6746461783?uo=4",
+    "icon": "/assets/apps/wine-list-order-confidently/icon.jpg",
+    "description": "Wine List: Order confidently is designed to make restaurant wine decisions easier by helping diners understand selections more clearly and choose bottles with greater confidence.",
+    "screenshots": [
+      "/assets/apps/wine-list-order-confidently/screenshot-1.jpg",
+      "/assets/apps/wine-list-order-confidently/screenshot-2.jpg",
+      "/assets/apps/wine-list-order-confidently/screenshot-3.jpg"
+    ],
+    "genre": "Food & Drink",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.6"
+  },
+  {
+    "appId": "6758275009",
+    "name": "BreakOut: Use Your Head",
+    "appStoreUrl": "https://apps.apple.com/us/app/breakout-use-your-head/id6758275009?uo=4",
+    "icon": "/assets/apps/breakout-use-your-head/icon.jpg",
+    "description": "BreakOut: Use Your Head is a playful, skill-based game experience built around quick reactions and challenge-driven interaction, with a simple concept that is easy to pick up and rewarding to master.",
+    "screenshots": [
+      "/assets/apps/breakout-use-your-head/screenshot-1.jpg",
+      "/assets/apps/breakout-use-your-head/screenshot-2.jpg",
+      "/assets/apps/breakout-use-your-head/screenshot-3.jpg"
+    ],
+    "genre": "Games",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.1"
+  },
+  {
+    "appId": "6737210385",
+    "name": "FundOracle: Invest with AI",
+    "appStoreUrl": "https://apps.apple.com/us/app/fundoracle-invest-with-ai/id6737210385?uo=4",
+    "icon": "/assets/apps/fundoracle-invest-with-ai/icon.jpg",
+    "description": "FundOracle: Invest with AI brings AI-assisted investing support to the App Store, helping users explore fund ideas and make more informed decisions with a clearer, data-driven perspective.",
+    "screenshots": [
+      "/assets/apps/fundoracle-invest-with-ai/screenshot-1.jpg",
+      "/assets/apps/fundoracle-invest-with-ai/screenshot-2.jpg",
+      "/assets/apps/fundoracle-invest-with-ai/screenshot-3.jpg"
+    ],
+    "genre": "Finance",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.5"
+  },
+  {
+    "appId": "6756691974",
+    "name": "PriceEqualizer:Localize Prices",
+    "appStoreUrl": "https://apps.apple.com/us/app/priceequalizer-localize-prices/id6756691974?uo=4",
+    "icon": "/assets/apps/priceequalizer-localize-prices/icon.jpg",
+    "description": "PriceEqualizer:Localize Prices helps teams and creators adapt pricing across markets, making it easier to compare, balance, and localize product prices for different regions.",
+    "screenshots": [
+      "/assets/apps/priceequalizer-localize-prices/screenshot-1.jpg",
+      "/assets/apps/priceequalizer-localize-prices/screenshot-2.jpg",
+      "/assets/apps/priceequalizer-localize-prices/screenshot-3.jpg"
+    ],
+    "genre": "Developer Tools",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "6755209829",
+    "name": "No DoomScrolling: Walk2Scroll",
+    "appStoreUrl": "https://apps.apple.com/us/app/no-doomscrolling-walk2scroll/id6755209829?uo=4",
+    "icon": "/assets/apps/no-doomscrolling-walk2scroll/icon.jpg",
+    "description": "No DoomScrolling: Walk2Scroll encourages healthier phone habits by tying scrolling to movement, turning passive screen time into a more intentional and active experience.",
+    "screenshots": [
+      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-1.jpg",
+      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-2.jpg",
+      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-3.jpg"
+    ],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.4"
+  },
+  {
+    "appId": "1506091473",
+    "name": "SuperHUD",
+    "appStoreUrl": "https://apps.apple.com/us/app/superhud/id1506091473?uo=4",
+    "icon": "/assets/apps/superhud/icon.jpg",
+    "description": "SuperHUD provides a fast-glance utility interface for important device or context-aware information, surfacing practical details in a compact format that is easy to check throughout the day.",
+    "screenshots": [],
+    "genre": "Travel",
+    "formattedPrice": "$2.99",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "2.7"
+  },
+  {
+    "appId": "6467927952",
+    "name": "Vacation: Plan with AI",
+    "appStoreUrl": "https://apps.apple.com/us/app/vacation-plan-with-ai/id6467927952?uo=4",
+    "icon": "/assets/apps/vacation-plan-with-ai/icon.jpg",
+    "description": "Vacation: Plan with AI helps travelers turn ideas into itineraries by using AI to organize destinations, suggestions, and trip details into a more manageable planning flow.",
+    "screenshots": [
+      "/assets/apps/vacation-plan-with-ai/screenshot-1.jpg",
+      "/assets/apps/vacation-plan-with-ai/screenshot-2.jpg",
+      "/assets/apps/vacation-plan-with-ai/screenshot-3.jpg"
+    ],
+    "genre": "Travel",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.4"
+  },
+  {
+    "appId": "1464839212",
+    "name": "SentryView: For Tesla Cars",
+    "appStoreUrl": "https://apps.apple.com/us/app/sentryview-for-tesla-cars/id1464839212?uo=4",
+    "icon": "/assets/apps/sentryview-for-tesla-cars/icon.jpg",
+    "description": "SentryView: For Tesla Cars gives Tesla owners remote visibility into Sentry activity and related vehicle information, making it easier to keep tabs on what is happening around the car.",
+    "screenshots": [],
+    "genre": "Utilities",
+    "formattedPrice": "$7.99",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "4.9.2"
+  },
+  {
+    "appId": "6746104806",
+    "name": "PersonPop",
+    "appStoreUrl": "https://apps.apple.com/us/app/personpop/id6746104806?uo=4",
+    "icon": "/assets/apps/personpop/icon.jpg",
+    "description": "PersonPop is an AI-powered people utility focused on making visual understanding and character-style transformation more accessible, playful, and quick directly from the phone.",
+    "screenshots": [
+      "/assets/apps/personpop/screenshot-1.jpg",
+      "/assets/apps/personpop/screenshot-2.jpg"
+    ],
+    "genre": "Photo & Video",
+    "formattedPrice": "$2.99",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "1121073530",
+    "name": "SafeDrive: For Teen Drivers",
+    "appStoreUrl": "https://apps.apple.com/us/app/safedrive-for-teen-drivers/id1121073530?uo=4",
+    "icon": "/assets/apps/safedrive-for-teen-drivers/icon.jpg",
+    "description": "SafeDrive: For Teen Drivers is designed to promote safer driving habits with tools that help parents and families stay informed, encourage accountability, and support better decisions behind the wheel.",
+    "screenshots": [],
+    "genre": "Navigation",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "4.1"
+  },
+  {
+    "appId": "6633412939",
+    "name": "DrPlant",
+    "appStoreUrl": "https://apps.apple.com/us/app/drplant/id6633412939?uo=4",
+    "icon": "/assets/apps/drplant/icon.jpg",
+    "description": "DrPlant helps users understand plant health and care needs more quickly, giving them a mobile assistant for identifying issues and making better decisions for their plants.",
+    "screenshots": [
+      "/assets/apps/drplant/screenshot-1.jpg",
+      "/assets/apps/drplant/screenshot-2.jpg",
+      "/assets/apps/drplant/screenshot-3.jpg"
+    ],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  },
+  {
+    "appId": "6753088899",
+    "name": "TryOn: Virtually",
+    "appStoreUrl": "https://apps.apple.com/us/app/tryon-virtually/id6753088899?uo=4",
+    "icon": "/assets/apps/tryon-virtually/icon.jpg",
+    "description": "TryOn: Virtually brings visual experimentation to the shopping process, helping users preview looks digitally before committing and making online decision-making more confident.",
+    "screenshots": [
+      "/assets/apps/tryon-virtually/screenshot-1.jpg",
+      "/assets/apps/tryon-virtually/screenshot-2.jpg",
+      "/assets/apps/tryon-virtually/screenshot-3.jpg"
+    ],
+    "genre": "Entertainment",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  },
+  {
+    "appId": "6446225669",
+    "name": "Ask & Summarize",
+    "appStoreUrl": "https://apps.apple.com/us/app/ask-summarize/id6446225669?uo=4",
+    "icon": "/assets/apps/ask-summarize/icon.jpg",
+    "description": "Ask & Summarize is built for quickly turning information into clearer takeaways, helping users ask questions, condense content, and get to useful answers without unnecessary friction.",
+    "screenshots": [
+      "/assets/apps/ask-summarize/screenshot-1.jpg"
+    ],
+    "genre": "Utilities",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "2.4"
+  },
+  {
+    "appId": "6499230412",
+    "name": "CanYouMeetUs: Event Creation",
+    "appStoreUrl": "https://apps.apple.com/us/app/canyoumeetus-event-creation/id6499230412?uo=4",
+    "icon": "/assets/apps/canyoumeetus-event-creation/icon.jpg",
+    "description": "CanYouMeetUs: Event Creation makes it easier to coordinate gatherings by helping users set up events, compare participation, and bring scheduling clarity to group planning.",
+    "screenshots": [
+      "/assets/apps/canyoumeetus-event-creation/screenshot-1.jpg",
+      "/assets/apps/canyoumeetus-event-creation/screenshot-2.jpg",
+      "/assets/apps/canyoumeetus-event-creation/screenshot-3.jpg"
+    ],
+    "genre": "Utilities",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "6742694015",
+    "name": "TourTalk: For Tour Guides",
+    "appStoreUrl": "https://apps.apple.com/us/app/tourtalk-for-tour-guides/id6742694015?uo=4",
+    "icon": "/assets/apps/tourtalk-for-tour-guides/icon.jpg",
+    "description": "TourTalk: For Tour Guides supports guides and tour experiences with tools aimed at communication and storytelling, helping tours feel more organized, engaging, and informative.",
+    "screenshots": [
+      "/assets/apps/tourtalk-for-tour-guides/screenshot-1.jpg",
+      "/assets/apps/tourtalk-for-tour-guides/screenshot-2.jpg",
+      "/assets/apps/tourtalk-for-tour-guides/screenshot-3.jpg"
+    ],
+    "genre": "Travel",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "1497397834",
+    "name": "Haptic Exhale",
+    "appStoreUrl": "https://apps.apple.com/us/app/haptic-exhale/id1497397834?uo=4",
+    "icon": "/assets/apps/haptic-exhale/icon.jpg",
+    "description": "Haptic Exhale uses tactile cues to guide breathing and relaxation, creating a calmer mindfulness experience that works through subtle feedback instead of constant visual attention.",
+    "screenshots": [],
+    "genre": "Lifestyle",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.3"
+  },
+  {
+    "appId": "6504303680",
+    "name": "FoodAnalyst: Know your food",
+    "appStoreUrl": "https://apps.apple.com/us/app/foodanalyst-know-your-food/id6504303680?uo=4",
+    "icon": "/assets/apps/foodanalyst-know-your-food/icon.jpg",
+    "description": "FoodAnalyst: Know your food helps users better understand what they eat by turning food details into actionable insights, making nutrition awareness more accessible in everyday moments.",
+    "screenshots": [
+      "/assets/apps/foodanalyst-know-your-food/screenshot-1.jpg",
+      "/assets/apps/foodanalyst-know-your-food/screenshot-2.jpg",
+      "/assets/apps/foodanalyst-know-your-food/screenshot-3.jpg"
+    ],
+    "genre": "Health & Fitness",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.4"
+  },
+  {
+    "appId": "6593661314",
+    "name": "Image2Text: Textify Images",
+    "appStoreUrl": "https://apps.apple.com/us/app/image2text-textify-images/id6593661314?uo=4",
+    "icon": "/assets/apps/image2text-textify-images/icon.jpg",
+    "description": "Image2Text: Textify Images extracts text from photos and screenshots so users can turn visual information into editable, shareable content with minimal effort.",
+    "screenshots": [
+      "/assets/apps/image2text-textify-images/screenshot-1.jpg",
+      "/assets/apps/image2text-textify-images/screenshot-2.jpg",
+      "/assets/apps/image2text-textify-images/screenshot-3.jpg"
+    ],
+    "genre": "Productivity",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "6502919356",
+    "name": "ImageTwist: images to video",
+    "appStoreUrl": "https://apps.apple.com/us/app/imagetwist-images-to-video/id6502919356?uo=4",
+    "icon": "/assets/apps/imagetwist-images-to-video/icon.jpg",
+    "description": "ImageTwist: images to video transforms still images into motion-ready video content, giving creators a simple way to produce more dynamic visual output from existing assets.",
+    "screenshots": [
+      "/assets/apps/imagetwist-images-to-video/screenshot-1.jpg",
+      "/assets/apps/imagetwist-images-to-video/screenshot-2.jpg",
+      "/assets/apps/imagetwist-images-to-video/screenshot-3.jpg"
+    ],
+    "genre": "Photo & Video",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.0"
+  },
+  {
+    "appId": "6444589437",
+    "name": "MileageRecorder",
+    "appStoreUrl": "https://apps.apple.com/us/app/mileagerecorder/id6444589437?uo=4",
+    "icon": "/assets/apps/mileagerecorder/icon.jpg",
+    "description": "MileageRecorder simplifies mileage tracking for personal and professional use, making it easier to log trips accurately and maintain records for reporting or reimbursement.",
+    "screenshots": [
+      "/assets/apps/mileagerecorder/screenshot-1.jpg",
+      "/assets/apps/mileagerecorder/screenshot-2.jpg",
+      "/assets/apps/mileagerecorder/screenshot-3.jpg"
+    ],
+    "genre": "Business",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.4"
+  },
+  {
+    "appId": "1538524179",
+    "name": "Image Animator",
+    "appStoreUrl": "https://apps.apple.com/us/app/image-animator/id1538524179?uo=4",
+    "icon": "/assets/apps/image-animator/icon.jpg",
+    "description": "Image Animator helps users bring static images to life with simple animation effects, creating more expressive content for sharing, storytelling, and experimentation.",
+    "screenshots": [
+      "/assets/apps/image-animator/screenshot-1.jpg",
+      "/assets/apps/image-animator/screenshot-2.jpg",
+      "/assets/apps/image-animator/screenshot-3.jpg"
+    ],
+    "genre": "Entertainment",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  },
+  {
+    "appId": "1604022532",
+    "name": "Magical Eraser",
+    "appStoreUrl": "https://apps.apple.com/us/app/magical-eraser/id1604022532?uo=4",
+    "icon": "/assets/apps/magical-eraser/icon.jpg",
+    "description": "Magical Eraser removes distractions and unwanted elements from photos, giving users a straightforward editing tool for cleaner and more polished images.",
+    "screenshots": [
+      "/assets/apps/magical-eraser/screenshot-1.jpg",
+      "/assets/apps/magical-eraser/screenshot-2.jpg",
+      "/assets/apps/magical-eraser/screenshot-3.jpg"
+    ],
+    "genre": "Photo & Video",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.4"
+  },
+  {
+    "appId": "1440854963",
+    "name": "Wall Color AI",
+    "appStoreUrl": "https://apps.apple.com/us/app/wall-color-ai/id1440854963?uo=4",
+    "icon": "/assets/apps/wall-color-ai/icon.jpg",
+    "description": "Wall Color AI helps users preview paint and room color changes before making decisions, making home design exploration faster, more visual, and easier to trust.",
+    "screenshots": [
+      "/assets/apps/wall-color-ai/screenshot-1.jpg",
+      "/assets/apps/wall-color-ai/screenshot-2.jpg",
+      "/assets/apps/wall-color-ai/screenshot-3.jpg"
+    ],
+    "genre": "Utilities",
+    "formattedPrice": "$2.99",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  },
+  {
+    "appId": "1499921065",
+    "name": "AI Portfolio",
+    "appStoreUrl": "https://apps.apple.com/us/app/ai-portfolio/id1499921065?uo=4",
+    "icon": "/assets/apps/ai-portfolio/icon.jpg",
+    "description": "AI Portfolio helps users present their work and ideas in a more polished digital format, using AI-assisted organization and presentation features to make portfolios clearer and more compelling.",
+    "screenshots": [],
+    "genre": "Finance",
+    "formattedPrice": "Free",
+    "sellerName": "MaaDoTaa LLC",
+    "version": "1.2"
+  }
+]

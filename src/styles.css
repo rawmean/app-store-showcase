@@ -1,0 +1,350 @@
+:root {
+  color-scheme: light;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #102033;
+  background:
+    radial-gradient(circle at top left, rgba(94, 161, 255, 0.17), transparent 32%),
+    radial-gradient(circle at top right, rgba(21, 198, 172, 0.18), transparent 28%),
+    linear-gradient(180deg, #f4f7fb 0%, #ecf1f7 46%, #f8fbff 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.92);
+  --stroke: rgba(20, 42, 71, 0.08);
+  --shadow: 0 20px 60px rgba(20, 42, 71, 0.08);
+  --muted: #5b6c82;
+  --accent: #0c5adb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.page-shell {
+  position: relative;
+  overflow-x: clip;
+  padding: 32px 20px 72px;
+}
+
+.background-grid {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(10, 36, 67, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 36, 67, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 85%);
+}
+
+.background-glow {
+  position: fixed;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 999px;
+  filter: blur(60px);
+  pointer-events: none;
+  opacity: 0.45;
+}
+
+.background-glow-left {
+  top: -8rem;
+  left: -10rem;
+  background: rgba(84, 153, 255, 0.28);
+}
+
+.background-glow-right {
+  top: 16rem;
+  right: -10rem;
+  background: rgba(27, 181, 166, 0.2);
+}
+
+.hero,
+.showcase,
+.footer {
+  position: relative;
+  z-index: 1;
+  width: min(1200px, 100%);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 48px clamp(24px, 4vw, 48px);
+  border: 1px solid var(--stroke);
+  border-radius: 34px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(248, 251, 255, 0.72));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.eyebrow {
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero h1 {
+  max-width: 14ch;
+  margin: 14px 0 18px;
+  font-family: "Fraunces", serif;
+  font-size: clamp(2.8rem, 7vw, 5.7rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.hero-copy {
+  max-width: 60rem;
+  margin: 0;
+  font-size: clamp(1.02rem, 2vw, 1.18rem);
+  color: var(--muted);
+}
+
+.hero-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.metric-card {
+  padding: 18px 20px;
+  border: 1px solid rgba(12, 90, 219, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.metric-value {
+  display: block;
+  font-size: 1.12rem;
+  font-weight: 800;
+}
+
+.metric-label {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.showcase {
+  display: grid;
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.app-card {
+  padding: clamp(20px, 3vw, 28px);
+  border: 1px solid var(--stroke);
+  border-radius: 30px;
+  background: var(--surface);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow);
+}
+
+.app-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.app-identity {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-icon {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(16, 32, 51, 0.16);
+}
+
+.app-kicker {
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.app-card h2 {
+  margin: 6px 0 6px;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1.04;
+}
+
+.app-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.badge-link {
+  flex-shrink: 0;
+  transition: transform 180ms ease;
+}
+
+.badge-link:hover {
+  transform: translateY(-2px);
+}
+
+.badge-link img {
+  width: 160px;
+  height: auto;
+}
+
+.app-description {
+  margin: 22px 0 22px;
+  max-width: 72ch;
+  color: #24364d;
+  font-size: 1.03rem;
+}
+
+.screenshot-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.shot-frame {
+  position: relative;
+  margin: 0;
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1px solid rgba(16, 32, 51, 0.08);
+  background: linear-gradient(180deg, #f8fbff 0%, #edf2f8 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.shot-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(12, 19, 32, 0.04));
+  pointer-events: none;
+}
+
+.shot-frame img {
+  width: 100%;
+  aspect-ratio: 430 / 932;
+  object-fit: cover;
+  transform: translateY(0) scale(1);
+  transition: transform 320ms ease;
+}
+
+.app-card:hover .shot-frame img {
+  transform: translateY(-4px) scale(1.015);
+}
+
+.empty-shot-state {
+  display: grid;
+  align-items: center;
+  min-height: 240px;
+  padding: 28px;
+  border: 1px dashed rgba(12, 90, 219, 0.2);
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.66), rgba(241, 246, 252, 0.9));
+  color: var(--muted);
+}
+
+.empty-shot-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.empty-shot-state p {
+  margin: 0;
+  max-width: 44ch;
+}
+
+.footer {
+  padding: 28px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 720ms ease,
+    transform 720ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .hero-metrics,
+  .screenshot-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .app-card-header {
+    flex-direction: column;
+  }
+
+  .badge-link img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    padding: 16px 14px 48px;
+  }
+
+  .hero {
+    padding: 28px 20px;
+    border-radius: 26px;
+  }
+
+  .app-card {
+    border-radius: 24px;
+  }
+
+  .app-identity {
+    align-items: flex-start;
+  }
+
+  .app-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+  }
+}
