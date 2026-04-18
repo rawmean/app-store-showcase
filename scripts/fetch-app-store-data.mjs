@@ -16,39 +16,39 @@ const BADGE_URL =
   "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg";
 
 const approvedApps = [
-  { appId: "6749094726", description: "WatchThis helps people discover highly rated movies and TV shows through trusted recommendations from friends, combining social reviews, watchlist tools, and streaming availability into a more personal alternative to algorithm-driven browsing." },
-  { appId: "6762139996", description: "Inventory Scanner: Organizer turns your iPhone into a practical cataloging tool for tracking products and household items, making it easier to scan, organize, and maintain a clear record of what you own or manage." },
-  { appId: "1191100729", description: "Stats -- For your Tesla gives Tesla owners a detailed companion for monitoring vehicle health, driving data, and charging information, all in a polished mobile dashboard built around useful day-to-day insights." },
-  { appId: "6584513715", description: "NoSpamSMS: Stop Spam Messages is built to reduce message clutter by helping users detect and block unwanted SMS conversations, creating a cleaner inbox and a safer messaging experience." },
-  { appId: "1592555877", description: "Climb Meter: For rock climbing supports climbers with tools tailored to training, route tracking, and performance awareness, giving them a focused mobile companion for improving technique and consistency." },
-  { appId: "6751619063", description: "Posture Monitor helps users build better physical habits by tracking posture awareness and encouraging more consistent alignment throughout the day." },
-  { appId: "6759739810", description: "Recap: Snap & get the story uses AI to turn a photo into quick context and understanding, helping users capture an image and immediately get a useful explanation of what they are seeing." },
-  { appId: "6757448973", description: "Fund Compare: for investors helps users evaluate funds side by side, making it easier to compare performance, characteristics, and investment options in one streamlined research experience." },
-  { appId: "6450682444", description: "Fluenta: Spanish Chat & News combines language practice with real-world content, giving learners a more natural way to improve Spanish through conversation, reading, and current topics." },
-  { appId: "6746461783", description: "Wine List: Order confidently is designed to make restaurant wine decisions easier by helping diners understand selections more clearly and choose bottles with greater confidence." },
-  { appId: "6758275009", description: "BreakOut: Use Your Head is a playful, skill-based game experience built around quick reactions and challenge-driven interaction, with a simple concept that is easy to pick up and rewarding to master." },
-  { appId: "6737210385", description: "FundOracle: Invest with AI brings AI-assisted investing support to the App Store, helping users explore fund ideas and make more informed decisions with a clearer, data-driven perspective." },
-  { appId: "6756691974", description: "PriceEqualizer:Localize Prices helps teams and creators adapt pricing across markets, making it easier to compare, balance, and localize product prices for different regions." },
-  { appId: "6755209829", description: "No DoomScrolling: Walk2Scroll encourages healthier phone habits by tying scrolling to movement, turning passive screen time into a more intentional and active experience." },
-  { appId: "1506091473", description: "SuperHUD provides a fast-glance utility interface for important device or context-aware information, surfacing practical details in a compact format that is easy to check throughout the day." },
-  { appId: "6467927952", description: "Vacation: Plan with AI helps travelers turn ideas into itineraries by using AI to organize destinations, suggestions, and trip details into a more manageable planning flow." },
-  { appId: "1464839212", description: "SentryView: For Tesla Cars gives Tesla owners remote visibility into Sentry activity and related vehicle information, making it easier to keep tabs on what is happening around the car." },
-  { appId: "6746104806", description: "PersonPop is an AI-powered people utility focused on making visual understanding and character-style transformation more accessible, playful, and quick directly from the phone." },
-  { appId: "1121073530", description: "SafeDrive: For Teen Drivers is designed to promote safer driving habits with tools that help parents and families stay informed, encourage accountability, and support better decisions behind the wheel." },
-  { appId: "6633412939", description: "DrPlant helps users understand plant health and care needs more quickly, giving them a mobile assistant for identifying issues and making better decisions for their plants." },
-  { appId: "6753088899", description: "TryOn: Virtually brings visual experimentation to the shopping process, helping users preview looks digitally before committing and making online decision-making more confident." },
-  { appId: "6446225669", description: "Ask & Summarize is built for quickly turning information into clearer takeaways, helping users ask questions, condense content, and get to useful answers without unnecessary friction." },
-  { appId: "6499230412", description: "CanYouMeetUs: Event Creation makes it easier to coordinate gatherings by helping users set up events, compare participation, and bring scheduling clarity to group planning." },
-  { appId: "6742694015", description: "TourTalk: For Tour Guides supports guides and tour experiences with tools aimed at communication and storytelling, helping tours feel more organized, engaging, and informative." },
-  { appId: "1497397834", description: "Haptic Exhale uses tactile cues to guide breathing and relaxation, creating a calmer mindfulness experience that works through subtle feedback instead of constant visual attention." },
-  { appId: "6504303680", description: "FoodAnalyst: Know your food helps users better understand what they eat by turning food details into actionable insights, making nutrition awareness more accessible in everyday moments." },
-  { appId: "6593661314", description: "Image2Text: Textify Images extracts text from photos and screenshots so users can turn visual information into editable, shareable content with minimal effort." },
-  { appId: "6502919356", description: "ImageTwist: images to video transforms still images into motion-ready video content, giving creators a simple way to produce more dynamic visual output from existing assets." },
-  { appId: "6444589437", description: "MileageRecorder simplifies mileage tracking for personal and professional use, making it easier to log trips accurately and maintain records for reporting or reimbursement." },
-  { appId: "1538524179", description: "Image Animator helps users bring static images to life with simple animation effects, creating more expressive content for sharing, storytelling, and experimentation." },
-  { appId: "1604022532", description: "Magical Eraser removes distractions and unwanted elements from photos, giving users a straightforward editing tool for cleaner and more polished images." },
-  { appId: "1440854963", description: "Wall Color AI helps users preview paint and room color changes before making decisions, making home design exploration faster, more visual, and easier to trust." },
-  { appId: "1499921065", description: "AI Portfolio helps users present their work and ideas in a more polished digital format, using AI-assisted organization and presentation features to make portfolios clearer and more compelling." }
+  { appId: "6749094726" },
+  { appId: "6762139996" },
+  { appId: "1191100729" },
+  { appId: "6584513715" },
+  { appId: "1592555877" },
+  { appId: "6751619063" },
+  { appId: "6759739810" },
+  { appId: "6757448973" },
+  { appId: "6450682444" },
+  { appId: "6746461783" },
+  { appId: "6758275009" },
+  { appId: "6737210385" },
+  { appId: "6756691974" },
+  { appId: "6755209829" },
+  { appId: "1506091473" },
+  { appId: "6467927952" },
+  { appId: "1464839212" },
+  { appId: "6746104806" },
+  { appId: "1121073530" },
+  { appId: "6633412939" },
+  { appId: "6753088899" },
+  { appId: "6446225669" },
+  { appId: "6499230412" },
+  { appId: "6742694015" },
+  { appId: "1497397834" },
+  { appId: "6504303680" },
+  { appId: "6593661314" },
+  { appId: "6502919356" },
+  { appId: "6444589437" },
+  { appId: "1538524179" },
+  { appId: "1604022532" },
+  { appId: "1440854963" },
+  { appId: "1499921065" }
 ];
 
 function runAsc(args) {
@@ -78,6 +78,331 @@ async function download(url, destination) {
 
   const buffer = Buffer.from(await response.arrayBuffer());
   await writeFile(destination, buffer);
+}
+
+function normalizeWhitespace(value) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+function stripHeadingMarkers(value) {
+  return value.replace(/^#+\s*/, "").trim();
+}
+
+function cleanDescriptionText(description) {
+  return description
+    .replace(/\r/g, "")
+    .replace(/\*\*/g, "")
+    .replace(/`/g, "")
+    .replace(/\[\+\]/g, "")
+    .replace(/•/g, "-")
+    .replace(/\u2022/g, "-")
+    .replace(/App Store Description/gi, "")
+    .replace(/---+/g, "")
+    .trim();
+}
+
+function splitIntoSentences(text) {
+  return text
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => normalizeWhitespace(sentence))
+    .filter(Boolean);
+}
+
+function isHeadingLike(line) {
+  const value = stripHeadingMarkers(line).replace(/[.:]$/, "");
+  if (!value) {
+    return true;
+  }
+
+  return /^(key features|overview|how it works|built for privacy|privacy first|perfect for|system requirements|privacy-first design)$/i.test(
+    value,
+  ) || (/^[A-Z][A-Za-z/&\s-]{1,32}$/.test(value) && value.split(/\s+/).length <= 4);
+}
+
+function isStepLike(line) {
+  return /^\d+\.\s+/.test(line);
+}
+
+function summarizeDescription(description) {
+  const cleaned = cleanDescriptionText(description);
+  const paragraphs = cleaned
+    .split(/\n\s*\n/)
+    .map((paragraph) =>
+      normalizeWhitespace(
+        paragraph
+          .split("\n")
+          .map((line) => normalizeWhitespace(stripHeadingMarkers(line)))
+          .filter(Boolean)
+          .join(" "),
+      ),
+    )
+    .filter(Boolean);
+
+  const introParagraphs = paragraphs.filter(
+    (paragraph) =>
+      paragraph.length > 40 &&
+      !isHeadingLike(paragraph) &&
+      !isStepLike(paragraph) &&
+      !paragraph.startsWith("-"),
+  );
+
+  const lines = cleaned
+    .split("\n")
+    .map((line) => normalizeWhitespace(stripHeadingMarkers(line)))
+    .filter(Boolean);
+
+  const featureCandidates = [];
+
+  for (const line of lines) {
+    if (isHeadingLike(line)) {
+      continue;
+    }
+
+    const normalizedLine = line.replace(/^-+\s*/, "").replace(/[.:]$/, "");
+    const looksLikeFeature =
+      line.startsWith("-") ||
+      isStepLike(line) ||
+      /^(Get |Monitor |Track |See |Use |Create |Compare |Scan |Organize |Plan |Discover |Edit |Remove |Extract |Transform |Preview |Guide |Invite |Access |Review |Save |Export |Connect |Control |Receive |Practice |Catch |Generate |Supports |Works with |Displays |Analyze |Identify )/i.test(
+        normalizedLine,
+      );
+
+    if (looksLikeFeature && normalizedLine.length > 18) {
+      featureCandidates.push(normalizedLine);
+    }
+  }
+
+  let firstIntro = introParagraphs[0] ?? "";
+  if (firstIntro && firstIntro.length < 90 && introParagraphs[1]) {
+    firstIntro = `${firstIntro} ${introParagraphs[1]}`;
+  }
+
+  if (!firstIntro) {
+    firstIntro = featureCandidates.slice(0, 2).join(" ");
+  }
+
+  const introSentences = splitIntoSentences(firstIntro.replace(/^-+\s*/, ""));
+  const firstParagraph = introSentences.slice(0, 2).join(" ");
+
+  const distinctFeatures = [];
+  for (const feature of featureCandidates) {
+    const normalizedFeature = feature
+      .replace(/^overview\s+/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (
+      normalizedFeature &&
+      !firstParagraph.toLowerCase().includes(normalizedFeature.toLowerCase()) &&
+      !distinctFeatures.some((existing) => existing.toLowerCase() === normalizedFeature.toLowerCase())
+    ) {
+      distinctFeatures.push(normalizedFeature);
+    }
+  }
+
+  let secondParagraph = "";
+  if (distinctFeatures.length > 0) {
+    const topFeatures = distinctFeatures.slice(0, 4);
+    const featureText = topFeatures
+      .map((feature) => feature.charAt(0).toLowerCase() + feature.slice(1))
+      .join(", ")
+      .replace(/, ([^,]+)$/, ", and $1")
+      .replace(/\band and\b/g, "and");
+    secondParagraph = `Key features include ${featureText}.`;
+    if (!/[.!?]$/.test(secondParagraph)) {
+      secondParagraph += ".";
+    }
+  }
+
+  const fallback = splitIntoSentences(paragraphs[0] ?? cleaned).slice(0, 2).join(" ");
+  return [firstParagraph || fallback, secondParagraph].filter(Boolean).join("\n\n");
+}
+
+function shortenBullet(text, maxLength = 140) {
+  const normalized = normalizeWhitespace(
+    text
+      .replace(/^key features include\s+/i, "")
+      .replace(/^overview\s+/i, "")
+      .replace(/^[A-Z][A-Za-z]+:\s+/, "")
+      .replace(/\s+/g, " "),
+  );
+
+  if (normalized.length <= maxLength) {
+    return normalized.replace(/[.,;:\s]+$/, "");
+  }
+
+  const shortened = normalized.slice(0, maxLength);
+  return shortened.slice(0, shortened.lastIndexOf(" ")).replace(/[.,;:\s]+$/, "");
+}
+
+function buildSummaryBullets(description) {
+  const cleaned = cleanDescriptionText(description);
+  const paragraphs = cleaned
+    .split(/\n\s*\n/)
+    .map((paragraph) =>
+      normalizeWhitespace(
+        paragraph
+          .split("\n")
+          .map((line) => normalizeWhitespace(stripHeadingMarkers(line)))
+          .filter(Boolean)
+          .join(" "),
+      ),
+    )
+    .filter(Boolean);
+  const lines = cleaned
+    .split("\n")
+    .map((line) => normalizeWhitespace(stripHeadingMarkers(line)))
+    .filter(Boolean);
+  const bullets = [];
+
+  const introParagraph =
+    paragraphs.find(
+      (paragraph) =>
+        paragraph.length > 30 &&
+        !isHeadingLike(paragraph) &&
+        !isStepLike(paragraph) &&
+        !paragraph.startsWith("-"),
+    ) ?? paragraphs[0] ?? "";
+
+  if (introParagraph) {
+    const introSentence = splitIntoSentences(introParagraph)[0] ?? introParagraph;
+    bullets.push(shortenBullet(introSentence, 110));
+  }
+
+  const featureLines = lines
+    .filter((line) => {
+      const normalizedLine = line.replace(/^-+\s*/, "");
+      return (
+        !isHeadingLike(line) &&
+        normalizedLine.length > 18 &&
+        (line.startsWith("-") ||
+          /^(Get |Monitor |Track |See |Use |Create |Compare |Scan |Organize |Plan |Discover |Edit |Remove |Extract |Transform |Preview |Guide |Invite |Access |Review |Save |Export |Connect |Control |Receive |Practice |Catch |Generate |Supports |Works with |Displays |Analyze |Identify )/i.test(
+            normalizedLine,
+          ))
+      );
+    })
+    .map((line) => shortenBullet(line.replace(/^-+\s*/, ""), 110));
+
+  for (const item of featureLines) {
+    if (
+      bullets.length < 4 &&
+      item.length > 12 &&
+      !bullets.some((existing) => existing.toLowerCase() === item.toLowerCase())
+    ) {
+      bullets.push(item);
+    }
+  }
+
+  if (bullets.length < 3) {
+    const extraSentences = splitIntoSentences(introParagraph).slice(1);
+    for (const sentence of extraSentences) {
+      const item = shortenBullet(sentence, 110);
+      if (
+        bullets.length < 4 &&
+        item.length > 12 &&
+        !bullets.some((existing) => existing.toLowerCase() === item.toLowerCase())
+      ) {
+        bullets.push(item);
+      }
+    }
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function walkFiles(dir) {
+  const entries = readdirSync(dir, { withFileTypes: true });
+  const files = [];
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...walkFiles(fullPath));
+    } else {
+      files.push(fullPath);
+    }
+  }
+
+  return files;
+}
+
+function groupScore(groupName) {
+  if (/APP_IPHONE_65/i.test(groupName)) {
+    return 10;
+  }
+  if (/APP_IPHONE_67/i.test(groupName)) {
+    return 9;
+  }
+  if (/APP_IPHONE_61/i.test(groupName)) {
+    return 8;
+  }
+  if (/iphone/i.test(groupName)) {
+    return 7;
+  }
+  if (/(desktop|mac)/i.test(groupName)) {
+    return 6;
+  }
+  if (/ipad/i.test(groupName)) {
+    return 5;
+  }
+  if (/watch/i.test(groupName)) {
+    return 2;
+  }
+  return 1;
+}
+
+function chooseDownloadedScreenshots(tempDir) {
+  const allFiles = walkFiles(tempDir)
+    .filter((file) => /\.(png|jpg|jpeg)$/i.test(file))
+    .map((file) => ({
+      file,
+      relative: path.relative(tempDir, file),
+    }));
+
+  if (allFiles.length === 0) {
+    return [];
+  }
+
+  const byGroup = new Map();
+  for (const entry of allFiles) {
+    const [groupName = "root"] = entry.relative.split(path.sep);
+    const group = byGroup.get(groupName) ?? [];
+    group.push(entry);
+    byGroup.set(groupName, group);
+  }
+
+  const selectedGroup = [...byGroup.entries()]
+    .sort((left, right) => {
+      const groupDelta = groupScore(right[0]) - groupScore(left[0]);
+      if (groupDelta !== 0) {
+        return groupDelta;
+      }
+      if (right[1].length !== left[1].length) {
+        return right[1].length - left[1].length;
+      }
+      return left[0].localeCompare(right[0]);
+    })[0]?.[1] ?? [];
+
+  return selectedGroup
+    .slice()
+    .sort((left, right) =>
+      left.relative.localeCompare(right.relative, undefined, { numeric: true }),
+    )
+    .slice(0, 3)
+    .map((entry) => entry.file);
+}
+
+function getImageDimensions(filePath) {
+  const output = execFileSync("sips", ["-g", "pixelWidth", "-g", "pixelHeight", filePath], {
+    cwd: rootDir,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+  const widthMatch = output.match(/pixelWidth:\s+(\d+)/);
+  const heightMatch = output.match(/pixelHeight:\s+(\d+)/);
+
+  return {
+    width: widthMatch ? Number(widthMatch[1]) : 0,
+    height: heightMatch ? Number(heightMatch[1]) : 0,
+  };
 }
 
 async function downloadPublicScreenshots(appUrl, appAssetDir) {
@@ -119,8 +444,10 @@ async function downloadPublicScreenshots(appUrl, appAssetDir) {
 
   for (let index = 0; index < matches.length; index += 1) {
     const targetName = `screenshot-${index + 1}.jpg`;
-    await download(matches[index], path.join(appAssetDir, targetName));
-    screenshots.push(targetName);
+    const destination = path.join(appAssetDir, targetName);
+    await download(matches[index], destination);
+    const { width, height } = getImageDimensions(destination);
+    screenshots.push({ src: targetName, width, height });
   }
 
   return screenshots;
@@ -173,6 +500,7 @@ async function fetchApp(record) {
   const appSlug = slugify(publicInfo.name);
   const appAssetDir = path.join(appsDir, appSlug);
   mkdirSync(appAssetDir, { recursive: true });
+  rmSync(path.join(appAssetDir, "_raw"), { recursive: true, force: true });
 
   await download(publicInfo.artworkUrl, path.join(appAssetDir, "icon.jpg"));
 
@@ -206,10 +534,7 @@ async function fetchApp(record) {
         "--overwrite",
       ]);
 
-      const downloaded = readdirSync(tempDir)
-        .filter((entry) => /\.(png|jpg|jpeg)$/i.test(entry))
-        .sort((left, right) => left.localeCompare(right, undefined, { numeric: true }))
-        .slice(0, 3);
+      const downloaded = chooseDownloadedScreenshots(tempDir);
 
       screenshots = [];
 
@@ -217,8 +542,14 @@ async function fetchApp(record) {
         const sourceName = downloaded[index];
         const extension = path.extname(sourceName).toLowerCase() || ".png";
         const targetName = `screenshot-${index + 1}${extension}`;
-        await copyFile(path.join(tempDir, sourceName), path.join(appAssetDir, targetName));
-        screenshots.push(`/assets/apps/${appSlug}/${targetName}`);
+        const destination = path.join(appAssetDir, targetName);
+        await copyFile(sourceName, destination);
+        const { width, height } = getImageDimensions(destination);
+        screenshots.push({
+          src: `/assets/apps/${appSlug}/${targetName}`,
+          width,
+          height,
+        });
       }
 
       rmSync(tempDir, { recursive: true, force: true });
@@ -227,20 +558,28 @@ async function fetchApp(record) {
 
   if (screenshots.length === 0) {
     const publicShots = await downloadPublicScreenshots(publicInfo.url, appAssetDir);
-    screenshots = publicShots.map((name) => `/assets/apps/${appSlug}/${name}`);
+    screenshots = publicShots.map((shot) => ({
+      src: `/assets/apps/${appSlug}/${shot.src}`,
+      width: shot.width,
+      height: shot.height,
+    }));
   }
+
+  const isMacOnly = publicInfo.url.includes("mt=12");
 
   return {
     appId: record.appId,
     name: publicInfo.name,
     appStoreUrl: publicInfo.url,
     icon: `/assets/apps/${appSlug}/icon.jpg`,
-    description: record.description,
+    summaryBullets: buildSummaryBullets(publicInfo.description ?? ""),
     screenshots,
     genre: publicInfo.primaryGenreName ?? "App",
     formattedPrice: publicInfo.formattedPrice ?? "Free",
     sellerName: publicInfo.sellerName ?? "MaaDoTaa LLC",
     version: publicInfo.version ?? version.attributes?.versionString ?? "",
+    platformLabel: isMacOnly ? "Mac" : "iPhone",
+    isMacOnly,
   };
 }
 

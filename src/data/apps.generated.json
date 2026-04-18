@@ -4,504 +4,1135 @@
     "name": "WatchThis: What friends watch",
     "appStoreUrl": "https://apps.apple.com/us/app/watchthis-what-friends-watch/id6749094726?uo=4",
     "icon": "/assets/apps/watchthis-what-friends-watch/icon.jpg",
-    "description": "WatchThis helps people discover highly rated movies and TV shows through trusted recommendations from friends, combining social reviews, watchlist tools, and streaming availability into a more personal alternative to algorithm-driven browsing.",
+    "summaryBullets": [
+      "Discover highly-rated TV series and movies with friends",
+      "Get detailed information including ratings, cast, plot summaries, and streaming availability",
+      "See where to watch with direct links to streaming platforms",
+      "Connect with friends and see their honest reviews and ratings"
+    ],
     "screenshots": [
-      "/assets/apps/watchthis-what-friends-watch/screenshot-1.jpg",
-      "/assets/apps/watchthis-what-friends-watch/screenshot-2.jpg",
-      "/assets/apps/watchthis-what-friends-watch/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/watchthis-what-friends-watch/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/watchthis-what-friends-watch/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/watchthis-what-friends-watch/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Entertainment",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.1"
+    "version": "1.1",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6762139996",
     "name": "Inventory Scanner: Organizer",
     "appStoreUrl": "https://apps.apple.com/us/app/inventory-scanner-organizer/id6762139996?uo=4",
     "icon": "/assets/apps/inventory-scanner-organizer/icon.jpg",
-    "description": "Inventory Scanner: Organizer turns your iPhone into a practical cataloging tool for tracking products and household items, making it easier to scan, organize, and maintain a clear record of what you own or manage.",
+    "summaryBullets": [
+      "Inventory Scanner helps you capture barcodes into clean, organized sessions so you can stop juggling notes",
+      "Create a group for each box, shelf, order, delivery, audit, or stock count, then scan items as you work",
+      "Scan barcodes quickly with your iPhone camera",
+      "Organize scans by group name"
+    ],
     "screenshots": [
-      "/assets/apps/inventory-scanner-organizer/screenshot-1.jpg",
-      "/assets/apps/inventory-scanner-organizer/screenshot-2.jpg",
-      "/assets/apps/inventory-scanner-organizer/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/inventory-scanner-organizer/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/inventory-scanner-organizer/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/inventory-scanner-organizer/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Utilities",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1191100729",
     "name": "Stats -- For your Tesla",
     "appStoreUrl": "https://apps.apple.com/us/app/stats-for-your-tesla/id1191100729?uo=4",
     "icon": "/assets/apps/stats-for-your-tesla/icon.jpg",
-    "description": "Stats -- For your Tesla gives Tesla owners a detailed companion for monitoring vehicle health, driving data, and charging information, all in a polished mobile dashboard built around useful day-to-day insights.",
+    "summaryBullets": [
+      "Compare your car's max range against similar cars Shows your car's total battery capacity Connect your",
+      "Compare your car's max range against similar cars",
+      "Connect your storage device to your iPhone/iPad and view recorded dash-cam videos on iPhone/iPad",
+      "See what social media influencers have to say about the app"
+    ],
     "screenshots": [
-      "/assets/apps/stats-for-your-tesla/screenshot-1.jpg",
-      "/assets/apps/stats-for-your-tesla/screenshot-2.jpg",
-      "/assets/apps/stats-for-your-tesla/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/stats-for-your-tesla/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/stats-for-your-tesla/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/stats-for-your-tesla/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "6.2.33"
+    "version": "6.2.33",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6584513715",
     "name": "NoSpamSMS: Stop Spam Messages",
     "appStoreUrl": "https://apps.apple.com/us/app/nospamsms-stop-spam-messages/id6584513715?uo=4",
     "icon": "/assets/apps/nospamsms-stop-spam-messages/icon.jpg",
-    "description": "NoSpamSMS: Stop Spam Messages is built to reduce message clutter by helping users detect and block unwanted SMS conversations, creating a cleaner inbox and a safer messaging experience.",
+    "summaryBullets": [
+      "Your Personal Message Filter",
+      "Customizable Blacklist: Create a personalized list of words you want to filter out. If a message from an",
+      "Seamless Integration: The app works seamlessly with your Messages app, moving unwanted messages to a",
+      "Enhanced Privacy: All filtering is done entirely on your device. We never collect or transmit any information"
+    ],
     "screenshots": [
-      "/assets/apps/nospamsms-stop-spam-messages/screenshot-1.jpg",
-      "/assets/apps/nospamsms-stop-spam-messages/screenshot-2.jpg",
-      "/assets/apps/nospamsms-stop-spam-messages/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/nospamsms-stop-spam-messages/screenshot-1.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/nospamsms-stop-spam-messages/screenshot-2.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/nospamsms-stop-spam-messages/screenshot-3.jpg",
+        "width": 1290,
+        "height": 2796
+      }
     ],
     "genre": "Utilities",
     "formattedPrice": "$2.99",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.3"
+    "version": "1.3",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1592555877",
     "name": "Climb Meter: For rock climbing",
     "appStoreUrl": "https://apps.apple.com/us/app/climb-meter-for-rock-climbing/id1592555877?uo=4",
     "icon": "/assets/apps/climb-meter-for-rock-climbing/icon.jpg",
-    "description": "Climb Meter: For rock climbing supports climbers with tools tailored to training, route tracking, and performance awareness, giving them a focused mobile companion for improving technique and consistency.",
+    "summaryBullets": [
+      "Climb Meter is a climbing tracker built by a climber, for climbers",
+      "Apple Health integration for workouts, fitness tracking, and calories burned",
+      "Automatic climb counting",
+      "Support for American and French grading systems"
+    ],
     "screenshots": [
-      "/assets/apps/climb-meter-for-rock-climbing/screenshot-1.jpg",
-      "/assets/apps/climb-meter-for-rock-climbing/screenshot-2.jpg",
-      "/assets/apps/climb-meter-for-rock-climbing/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/climb-meter-for-rock-climbing/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/climb-meter-for-rock-climbing/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/climb-meter-for-rock-climbing/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Sports",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "2.5"
+    "version": "2.5",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6751619063",
     "name": "Posture Monitor",
     "appStoreUrl": "https://apps.apple.com/us/app/posture-monitor/id6751619063?mt=12&uo=4",
     "icon": "/assets/apps/posture-monitor/icon.jpg",
-    "description": "Posture Monitor helps users build better physical habits by tracking posture awareness and encouraging more consistent alignment throughout the day.",
+    "summaryBullets": [
+      "Transform your work habits with intelligent posture monitoring",
+      "Monitor your posture continuously using your Mac's built-in camera with advanced 3D human body pose detection",
+      "Get gentle, non-intrusive notifications when you start to slouch, helping you develop better posture habits",
+      "Remote workers and office professionals"
+    ],
     "screenshots": [
-      "/assets/apps/posture-monitor/screenshot-1.jpg",
-      "/assets/apps/posture-monitor/screenshot-2.jpg",
-      "/assets/apps/posture-monitor/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/posture-monitor/screenshot-1.jpg",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/assets/apps/posture-monitor/screenshot-2.jpg",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/assets/apps/posture-monitor/screenshot-3.jpg",
+        "width": 1280,
+        "height": 800
+      }
     ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "2.2"
+    "version": "2.2",
+    "platformLabel": "Mac",
+    "isMacOnly": true
   },
   {
     "appId": "6759739810",
     "name": "Recap: Snap & get the story",
     "appStoreUrl": "https://apps.apple.com/us/app/recap-snap-get-the-story/id6759739810?uo=4",
     "icon": "/assets/apps/recap-snap-get-the-story/icon.jpg",
-    "description": "Recap: Snap & get the story uses AI to turn a photo into quick context and understanding, helping users capture an image and immediately get a useful explanation of what they are seeing.",
+    "summaryBullets": [
+      "Lost track of the plot?",
+      "Get a detailed, spoiler-safe recap of everything up to that exact moment — streamed to you in real time",
+      "Recap has you covered"
+    ],
     "screenshots": [
-      "/assets/apps/recap-snap-get-the-story/screenshot-1.jpg",
-      "/assets/apps/recap-snap-get-the-story/screenshot-2.jpg",
-      "/assets/apps/recap-snap-get-the-story/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/recap-snap-get-the-story/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/recap-snap-get-the-story/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/recap-snap-get-the-story/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Entertainment",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6757448973",
     "name": "Fund Compare: for investors",
     "appStoreUrl": "https://apps.apple.com/us/app/fund-compare-for-investors/id6757448973?uo=4",
     "icon": "/assets/apps/fund-compare-for-investors/icon.jpg",
-    "description": "Fund Compare: for investors helps users evaluate funds side by side, making it easier to compare performance, characteristics, and investment options in one streamlined research experience.",
+    "summaryBullets": [
+      "FundCompare is an iPhone app for investors who want a clear, data-driven way to compare mutual funds and ETFs",
+      "Compare multiple funds or ETFs by symbol with flexible date ranges and quick presets (YTD, 1Y, 3Y, 5Y, 10Y",
+      "Easy to understand charts for performance, normalized returns, CAGR, drawdown, rolling returns, volatility",
+      "Detailed metrics including total return, after-tax return and after-tax CAGR, CAGR, maximum drawdown"
+    ],
     "screenshots": [
-      "/assets/apps/fund-compare-for-investors/screenshot-1.jpg",
-      "/assets/apps/fund-compare-for-investors/screenshot-2.jpg",
-      "/assets/apps/fund-compare-for-investors/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/fund-compare-for-investors/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/fund-compare-for-investors/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/fund-compare-for-investors/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Finance",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6450682444",
     "name": "Fluenta: Spanish Chat & News",
     "appStoreUrl": "https://apps.apple.com/us/app/fluenta-spanish-chat-news/id6450682444?uo=4",
     "icon": "/assets/apps/fluenta-spanish-chat-news/icon.jpg",
-    "description": "Fluenta: Spanish Chat & News combines language practice with real-world content, giving learners a more natural way to improve Spanish through conversation, reading, and current topics.",
+    "summaryBullets": [
+      "This is an app for people who want to practice speaking Spanish with a fluent Spanish speaker",
+      "If you make a mistake, the AI in the app points out the mistake and will tell you what the correct form is",
+      "Flash cards for learning new phrases",
+      "Presents daily briefing in simple Spanish (includes translation to English as well)"
+    ],
     "screenshots": [
-      "/assets/apps/fluenta-spanish-chat-news/screenshot-1.jpg",
-      "/assets/apps/fluenta-spanish-chat-news/screenshot-2.jpg",
-      "/assets/apps/fluenta-spanish-chat-news/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/fluenta-spanish-chat-news/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/fluenta-spanish-chat-news/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/fluenta-spanish-chat-news/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "2.3"
+    "version": "2.3",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6746461783",
     "name": "Wine List: Order confidently",
     "appStoreUrl": "https://apps.apple.com/us/app/wine-list-order-confidently/id6746461783?uo=4",
     "icon": "/assets/apps/wine-list-order-confidently/icon.jpg",
-    "description": "Wine List: Order confidently is designed to make restaurant wine decisions easier by helping diners understand selections more clearly and choose bottles with greater confidence.",
+    "summaryBullets": [
+      "Discover the ultimate wine companion that transforms any printed menu into an instant guide to ratings",
+      "Wine Recognition: Point your device’s camera at a printed wine list, and the app swiftly identifies each wine",
+      "Comprehensive Ratings & Reviews: Access aggregated ratings from leading wine critics and user communities, so",
+      "Dynamic Price Comparison: compare menu prices to real-world market data—discover a wine’s minimum, maximum"
+    ],
     "screenshots": [
-      "/assets/apps/wine-list-order-confidently/screenshot-1.jpg",
-      "/assets/apps/wine-list-order-confidently/screenshot-2.jpg",
-      "/assets/apps/wine-list-order-confidently/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/wine-list-order-confidently/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/wine-list-order-confidently/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/wine-list-order-confidently/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Food & Drink",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.6"
+    "version": "1.6",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6758275009",
     "name": "BreakOut: Use Your Head",
     "appStoreUrl": "https://apps.apple.com/us/app/breakout-use-your-head/id6758275009?uo=4",
     "icon": "/assets/apps/breakout-use-your-head/icon.jpg",
-    "description": "BreakOut: Use Your Head is a playful, skill-based game experience built around quick reactions and challenge-driven interaction, with a simple concept that is easy to pick up and rewarding to master.",
+    "summaryBullets": [
+      "Experience the classic brick-breaking arcade game like never before in this immersive 3D reinvention",
+      "Control the game with natural head movements. Lean left and right to shift your perspective and guide the",
+      "Track your high scores and compete with players worldwide on Game Center Leaderboards"
+    ],
     "screenshots": [
-      "/assets/apps/breakout-use-your-head/screenshot-1.jpg",
-      "/assets/apps/breakout-use-your-head/screenshot-2.jpg",
-      "/assets/apps/breakout-use-your-head/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/breakout-use-your-head/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/breakout-use-your-head/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/breakout-use-your-head/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Games",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.1"
+    "version": "1.1",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6737210385",
     "name": "FundOracle: Invest with AI",
     "appStoreUrl": "https://apps.apple.com/us/app/fundoracle-invest-with-ai/id6737210385?uo=4",
     "icon": "/assets/apps/fundoracle-invest-with-ai/icon.jpg",
-    "description": "FundOracle: Invest with AI brings AI-assisted investing support to the App Store, helping users explore fund ideas and make more informed decisions with a clearer, data-driven perspective.",
+    "summaryBullets": [
+      "This app uses advanced machine learning technology to predict fund prices and identify investment",
+      "A state-of-the-art machine learning algorithm analyzes each fund to predict its future average price 5 days",
+      "The system utilizes historical data spanning 20 years and employs neural networks specifically trained for",
+      "The algorithm has demonstrated high accuracy, with predictions typically within 1% of actual prices 95% of"
+    ],
     "screenshots": [
-      "/assets/apps/fundoracle-invest-with-ai/screenshot-1.jpg",
-      "/assets/apps/fundoracle-invest-with-ai/screenshot-2.jpg",
-      "/assets/apps/fundoracle-invest-with-ai/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/fundoracle-invest-with-ai/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/fundoracle-invest-with-ai/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/fundoracle-invest-with-ai/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Finance",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.5"
+    "version": "1.5",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6756691974",
     "name": "PriceEqualizer:Localize Prices",
     "appStoreUrl": "https://apps.apple.com/us/app/priceequalizer-localize-prices/id6756691974?uo=4",
     "icon": "/assets/apps/priceequalizer-localize-prices/icon.jpg",
-    "description": "PriceEqualizer:Localize Prices helps teams and creators adapt pricing across markets, making it easier to compare, balance, and localize product prices for different regions.",
+    "summaryBullets": [
+      "Are you leaving money on the table?",
+      "Connect your App Store Connect account using secure API credentials",
+      "Get smart price recommendations based on real PPP data"
+    ],
     "screenshots": [
-      "/assets/apps/priceequalizer-localize-prices/screenshot-1.jpg",
-      "/assets/apps/priceequalizer-localize-prices/screenshot-2.jpg",
-      "/assets/apps/priceequalizer-localize-prices/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/priceequalizer-localize-prices/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/priceequalizer-localize-prices/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/priceequalizer-localize-prices/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Developer Tools",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6755209829",
     "name": "No DoomScrolling: Walk2Scroll",
     "appStoreUrl": "https://apps.apple.com/us/app/no-doomscrolling-walk2scroll/id6755209829?uo=4",
     "icon": "/assets/apps/no-doomscrolling-walk2scroll/icon.jpg",
-    "description": "No DoomScrolling: Walk2Scroll encourages healthier phone habits by tying scrolling to movement, turning passive screen time into a more intentional and active experience.",
+    "summaryBullets": [
+      "Walk more",
+      "Select apps & websites to limit Social media, streaming, games—choose what you want to take control of",
+      "Set your movement goals Decide how many steps unlock how much screen time. You set the rules",
+      "Earn screen time by walking: The more you walk, the more time you earn to use the apps you’ve locked"
+    ],
     "screenshots": [
-      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-1.jpg",
-      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-2.jpg",
-      "/assets/apps/no-doomscrolling-walk2scroll/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/no-doomscrolling-walk2scroll/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/no-doomscrolling-walk2scroll/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/no-doomscrolling-walk2scroll/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.4"
+    "version": "1.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1506091473",
     "name": "SuperHUD",
     "appStoreUrl": "https://apps.apple.com/us/app/superhud/id1506091473?uo=4",
     "icon": "/assets/apps/superhud/icon.jpg",
-    "description": "SuperHUD provides a fast-glance utility interface for important device or context-aware information, surfacing practical details in a compact format that is easy to check throughout the day.",
-    "screenshots": [],
+    "summaryBullets": [
+      "- This app displays your speed and acceleration on your car's windshield",
+      "This app displays your speed and acceleration on your car's windshield",
+      "The app supports both mph and km/h units",
+      "To project the the information on your device on the windshield simply place your device on the dashboard of"
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/apps/superhud/screenshot-1.jpg",
+        "width": 2688,
+        "height": 1242
+      },
+      {
+        "src": "/assets/apps/superhud/screenshot-2.jpg",
+        "width": 2688,
+        "height": 1242
+      },
+      {
+        "src": "/assets/apps/superhud/screenshot-3.jpg",
+        "width": 2688,
+        "height": 1242
+      }
+    ],
     "genre": "Travel",
     "formattedPrice": "$2.99",
     "sellerName": "MaaDoTaa LLC",
-    "version": "2.7"
+    "version": "2.7",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6467927952",
     "name": "Vacation: Plan with AI",
     "appStoreUrl": "https://apps.apple.com/us/app/vacation-plan-with-ai/id6467927952?uo=4",
     "icon": "/assets/apps/vacation-plan-with-ai/icon.jpg",
-    "description": "Vacation: Plan with AI helps travelers turn ideas into itineraries by using AI to organize destinations, suggestions, and trip details into a more manageable planning flow.",
+    "summaryBullets": [
+      "This app is designed to assist you with your travel planning",
+      "Specifically, it recommend hotels, activities, tells when when is a good time to travel based on average",
+      "Once you pick an activity that you like (eg, hiking, biking, wine tasting, etc), the app will show you"
+    ],
     "screenshots": [
-      "/assets/apps/vacation-plan-with-ai/screenshot-1.jpg",
-      "/assets/apps/vacation-plan-with-ai/screenshot-2.jpg",
-      "/assets/apps/vacation-plan-with-ai/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/vacation-plan-with-ai/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/vacation-plan-with-ai/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/vacation-plan-with-ai/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Travel",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.4"
+    "version": "1.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1464839212",
     "name": "SentryView: For Tesla Cars",
     "appStoreUrl": "https://apps.apple.com/us/app/sentryview-for-tesla-cars/id1464839212?uo=4",
     "icon": "/assets/apps/sentryview-for-tesla-cars/icon.jpg",
-    "description": "SentryView: For Tesla Cars gives Tesla owners remote visibility into Sentry activity and related vehicle information, making it easier to keep tabs on what is happening around the car.",
-    "screenshots": [],
+    "summaryBullets": [
+      "This app works with any storage device (SSD, SD card, etc) which can be connected to iPhone/iPad and is",
+      "Fully supports v10 features (SentryClips folder and rear camera footage)",
+      "The left, right, center and rear videos are automatically shown next to each other",
+      "All clips are organized by date and time"
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/apps/sentryview-for-tesla-cars/screenshot-1.jpg",
+        "width": 2688,
+        "height": 1242
+      },
+      {
+        "src": "/assets/apps/sentryview-for-tesla-cars/screenshot-2.jpg",
+        "width": 2688,
+        "height": 1242
+      },
+      {
+        "src": "/assets/apps/sentryview-for-tesla-cars/screenshot-3.jpg",
+        "width": 2688,
+        "height": 1242
+      }
+    ],
     "genre": "Utilities",
     "formattedPrice": "$7.99",
     "sellerName": "MaaDoTaa LLC",
-    "version": "4.9.2"
+    "version": "4.9.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6746104806",
     "name": "PersonPop",
     "appStoreUrl": "https://apps.apple.com/us/app/personpop/id6746104806?uo=4",
     "icon": "/assets/apps/personpop/icon.jpg",
-    "description": "PersonPop is an AI-powered people utility focused on making visual understanding and character-style transformation more accessible, playful, and quick directly from the phone.",
+    "summaryBullets": [
+      "Capture every moment in living color, even when the world fades to black & white",
+      "Smart Person Detection – Our advanced AI automatically recognizes people in your photos",
+      "Intuitive Selection Tools – Tap to choose exactly who you want to keep in full color. Fine-tune your",
+      "Dramatic Color Splash – Watch the world around your chosen subjects melt away into elegant monochrome"
+    ],
     "screenshots": [
-      "/assets/apps/personpop/screenshot-1.jpg",
-      "/assets/apps/personpop/screenshot-2.jpg"
+      {
+        "src": "/assets/apps/personpop/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/personpop/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Photo & Video",
     "formattedPrice": "$2.99",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1121073530",
     "name": "SafeDrive: For Teen Drivers",
     "appStoreUrl": "https://apps.apple.com/us/app/safedrive-for-teen-drivers/id1121073530?uo=4",
     "icon": "/assets/apps/safedrive-for-teen-drivers/icon.jpg",
-    "description": "SafeDrive: For Teen Drivers is designed to promote safer driving habits with tools that help parents and families stay informed, encourage accountability, and support better decisions behind the wheel.",
-    "screenshots": [],
+    "summaryBullets": [
+      "If you have a teenage driver or any driver whose driving behavior you would like to monitor, this app is for",
+      "See what parents have said about this app in the review section *",
+      "Both the Driver (e.g., a teenage driver) and the Observer (e.g., the parent of the driver) install the app",
+      "The Driver invites the Parent to observer his/her driving behavior"
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/apps/safedrive-for-teen-drivers/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/safedrive-for-teen-drivers/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/safedrive-for-teen-drivers/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
+    ],
     "genre": "Navigation",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "4.1"
+    "version": "4.1",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6633412939",
     "name": "DrPlant",
     "appStoreUrl": "https://apps.apple.com/us/app/drplant/id6633412939?uo=4",
     "icon": "/assets/apps/drplant/icon.jpg",
-    "description": "DrPlant helps users understand plant health and care needs more quickly, giving them a mobile assistant for identifying issues and making better decisions for their plants.",
+    "summaryBullets": [
+      "DrPlant is your ultimate companion for nurturing and understanding your green friends!",
+      "With cutting-edge plant identification technology, simply snap a photo of any plant, and let DrPlant reveal"
+    ],
     "screenshots": [
-      "/assets/apps/drplant/screenshot-1.jpg",
-      "/assets/apps/drplant/screenshot-2.jpg",
-      "/assets/apps/drplant/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/drplant/screenshot-1.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/drplant/screenshot-2.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/drplant/screenshot-3.jpg",
+        "width": 1290,
+        "height": 2796
+      }
     ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6753088899",
     "name": "TryOn: Virtually",
     "appStoreUrl": "https://apps.apple.com/us/app/tryon-virtually/id6753088899?uo=4",
     "icon": "/assets/apps/tryon-virtually/icon.jpg",
-    "description": "TryOn: Virtually brings visual experimentation to the shopping process, helping users preview looks digitally before committing and making online decision-making more confident.",
+    "summaryBullets": [
+      "Transform your shopping experience with AI-powered virtual try-on technology",
+      "Transform your shopping experience with AI-powered virtual try-on technology. See how clothes look on you",
+      "CREATE YOUR AI MODEL",
+      "VIRTUAL TRY-ON ANYTHING"
+    ],
     "screenshots": [
-      "/assets/apps/tryon-virtually/screenshot-1.jpg",
-      "/assets/apps/tryon-virtually/screenshot-2.jpg",
-      "/assets/apps/tryon-virtually/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/tryon-virtually/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/tryon-virtually/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/tryon-virtually/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Entertainment",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6446225669",
     "name": "Ask & Summarize",
     "appStoreUrl": "https://apps.apple.com/us/app/ask-summarize/id6446225669?uo=4",
     "icon": "/assets/apps/ask-summarize/icon.jpg",
-    "description": "Ask & Summarize is built for quickly turning information into clearer takeaways, helping users ask questions, condense content, and get to useful answers without unnecessary friction.",
+    "summaryBullets": [
+      "A subscription is required to unlock all app features: You can choose monthly or annual subscription with",
+      "Save time and effort by getting summarized articles directly from your favorite browser",
+      "Article summarization can be done either within the app or by tapping the share button in your favorite web",
+      "Get instant answers to any question on your iPhone/iPad with our app powered by AI"
+    ],
     "screenshots": [
-      "/assets/apps/ask-summarize/screenshot-1.jpg"
+      {
+        "src": "/assets/apps/ask-summarize/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/ask-summarize/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/ask-summarize/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Utilities",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "2.4"
+    "version": "2.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6499230412",
     "name": "CanYouMeetUs: Event Creation",
     "appStoreUrl": "https://apps.apple.com/us/app/canyoumeetus-event-creation/id6499230412?uo=4",
     "icon": "/assets/apps/canyoumeetus-event-creation/icon.jpg",
-    "description": "CanYouMeetUs: Event Creation makes it easier to coordinate gatherings by helping users set up events, compare participation, and bring scheduling clarity to group planning.",
+    "summaryBullets": [
+      "Find the Best Time for Everyone — Effortlessly",
+      "Create an event and invite participants",
+      "Each invitee responds with their availability in plain English — no complex forms or rigid calendars",
+      "Our AI analyzes everyone’s input and automatically finds the optimal time that works for the most people"
+    ],
     "screenshots": [
-      "/assets/apps/canyoumeetus-event-creation/screenshot-1.jpg",
-      "/assets/apps/canyoumeetus-event-creation/screenshot-2.jpg",
-      "/assets/apps/canyoumeetus-event-creation/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/canyoumeetus-event-creation/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/canyoumeetus-event-creation/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/canyoumeetus-event-creation/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Utilities",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6742694015",
     "name": "TourTalk: For Tour Guides",
     "appStoreUrl": "https://apps.apple.com/us/app/tourtalk-for-tour-guides/id6742694015?uo=4",
     "icon": "/assets/apps/tourtalk-for-tour-guides/icon.jpg",
-    "description": "TourTalk: For Tour Guides supports guides and tour experiences with tools aimed at communication and storytelling, helping tours feel more organized, engaging, and informative.",
+    "summaryBullets": [
+      "Transform the Way Tour Guides Communicate",
+      "Listeners unlock full access with a one-time 7-day pass (no auto-renewal subscription)",
+      "Speakers subscribe to enable broadcasting"
+    ],
     "screenshots": [
-      "/assets/apps/tourtalk-for-tour-guides/screenshot-1.jpg",
-      "/assets/apps/tourtalk-for-tour-guides/screenshot-2.jpg",
-      "/assets/apps/tourtalk-for-tour-guides/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/tourtalk-for-tour-guides/screenshot-1.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/tourtalk-for-tour-guides/screenshot-2.jpg",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "src": "/assets/apps/tourtalk-for-tour-guides/screenshot-3.jpg",
+        "width": 1320,
+        "height": 2868
+      }
     ],
     "genre": "Travel",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1497397834",
     "name": "Haptic Exhale",
     "appStoreUrl": "https://apps.apple.com/us/app/haptic-exhale/id1497397834?uo=4",
     "icon": "/assets/apps/haptic-exhale/icon.jpg",
-    "description": "Haptic Exhale uses tactile cues to guide breathing and relaxation, creating a calmer mindfulness experience that works through subtle feedback instead of constant visual attention.",
-    "screenshots": [],
+    "summaryBullets": [
+      "Simple unique app that guides you through a breathing exercise without distracting you by audio instructions",
+      "Haptic feedback allows you to focus on your breathing",
+      "Soothing background music (optional) soothes your mind"
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/apps/haptic-exhale/screenshot-1.png",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/haptic-exhale/screenshot-2.png",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/haptic-exhale/screenshot-3.png",
+        "width": 1242,
+        "height": 2688
+      }
+    ],
     "genre": "Lifestyle",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.3"
+    "version": "1.3",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6504303680",
     "name": "FoodAnalyst: Know your food",
     "appStoreUrl": "https://apps.apple.com/us/app/foodanalyst-know-your-food/id6504303680?uo=4",
     "icon": "/assets/apps/foodanalyst-know-your-food/icon.jpg",
-    "description": "FoodAnalyst: Know your food helps users better understand what they eat by turning food details into actionable insights, making nutrition awareness more accessible in everyday moments.",
+    "summaryBullets": [
+      "Unlock the power of nutrition with our innovative app that makes healthy eating simple and intuitive",
+      "Transform Your Diet with Ease!",
+      "Instant Nutritional Analysis: Use your camera to quickly analyze the nutritional content of your meals",
+      "Text-Based Food Logging: Prefer typing? Describe your food using text, and get accurate nutritional insights"
+    ],
     "screenshots": [
-      "/assets/apps/foodanalyst-know-your-food/screenshot-1.jpg",
-      "/assets/apps/foodanalyst-know-your-food/screenshot-2.jpg",
-      "/assets/apps/foodanalyst-know-your-food/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/foodanalyst-know-your-food/screenshot-1.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/foodanalyst-know-your-food/screenshot-2.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/foodanalyst-know-your-food/screenshot-3.jpg",
+        "width": 1290,
+        "height": 2796
+      }
     ],
     "genre": "Health & Fitness",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.4"
+    "version": "1.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6593661314",
     "name": "Image2Text: Textify Images",
     "appStoreUrl": "https://apps.apple.com/us/app/image2text-textify-images/id6593661314?uo=4",
     "icon": "/assets/apps/image2text-textify-images/icon.jpg",
-    "description": "Image2Text: Textify Images extracts text from photos and screenshots so users can turn visual information into editable, shareable content with minimal effort.",
+    "summaryBullets": [
+      "Transform Your Handwritten Notes into Digital Text with Ease!",
+      "Instant Text Recognition: Capture images of any handwritten or printed text, and watch as the app transforms",
+      "Tiny Text? No Problem! Our advanced AI-based technology reads even the smallest labels and fine print",
+      "Organized Exports: Save your notes alongside the original images and export them as beautifully formatted"
+    ],
     "screenshots": [
-      "/assets/apps/image2text-textify-images/screenshot-1.jpg",
-      "/assets/apps/image2text-textify-images/screenshot-2.jpg",
-      "/assets/apps/image2text-textify-images/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/image2text-textify-images/screenshot-1.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/image2text-textify-images/screenshot-2.jpg",
+        "width": 1290,
+        "height": 2796
+      },
+      {
+        "src": "/assets/apps/image2text-textify-images/screenshot-3.jpg",
+        "width": 1290,
+        "height": 2796
+      }
     ],
     "genre": "Productivity",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6502919356",
     "name": "ImageTwist: images to video",
     "appStoreUrl": "https://apps.apple.com/us/app/imagetwist-images-to-video/id6502919356?uo=4",
     "icon": "/assets/apps/imagetwist-images-to-video/icon.jpg",
-    "description": "ImageTwist: images to video transforms still images into motion-ready video content, giving creators a simple way to produce more dynamic visual output from existing assets.",
+    "summaryBullets": [
+      "This app converts an image from your photo library and creates a video from it by adding various effects to",
+      "Share your creation on social media and make your image pop",
+      "One time purchase with no subscription"
+    ],
     "screenshots": [
-      "/assets/apps/imagetwist-images-to-video/screenshot-1.jpg",
-      "/assets/apps/imagetwist-images-to-video/screenshot-2.jpg",
-      "/assets/apps/imagetwist-images-to-video/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/imagetwist-images-to-video/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/imagetwist-images-to-video/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/imagetwist-images-to-video/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Photo & Video",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.0"
+    "version": "1.0",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "6444589437",
     "name": "MileageRecorder",
     "appStoreUrl": "https://apps.apple.com/us/app/mileagerecorder/id6444589437?uo=4",
     "icon": "/assets/apps/mileagerecorder/icon.jpg",
-    "description": "MileageRecorder simplifies mileage tracking for personal and professional use, making it easier to log trips accurately and maintain records for reporting or reimbursement.",
+    "summaryBullets": [
+      "o Log your business trips for tax purposes o Once installed, tracks your trips automatically; no need to open",
+      "You own your data. Your data is stored in your private iCloud Drive and nowhere else",
+      "No one has access to your data but you",
+      "No sign up and no account creation; just install and forget"
+    ],
     "screenshots": [
-      "/assets/apps/mileagerecorder/screenshot-1.jpg",
-      "/assets/apps/mileagerecorder/screenshot-2.jpg",
-      "/assets/apps/mileagerecorder/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/mileagerecorder/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/mileagerecorder/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/mileagerecorder/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Business",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.4"
+    "version": "1.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1538524179",
     "name": "Image Animator",
     "appStoreUrl": "https://apps.apple.com/us/app/image-animator/id1538524179?uo=4",
     "icon": "/assets/apps/image-animator/icon.jpg",
-    "description": "Image Animator helps users bring static images to life with simple animation effects, creating more expressive content for sharing, storytelling, and experimentation.",
+    "summaryBullets": [
+      "Create magically funny short clips which bring images to life",
+      "Select the image that you want to animate from the several provided images or supply your own image",
+      "Record a selfie video of yourself in the app",
+      "Access to functions in this app require a subscription (FREE trial offered)"
+    ],
     "screenshots": [
-      "/assets/apps/image-animator/screenshot-1.jpg",
-      "/assets/apps/image-animator/screenshot-2.jpg",
-      "/assets/apps/image-animator/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/image-animator/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/image-animator/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/image-animator/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Entertainment",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1604022532",
     "name": "Magical Eraser",
     "appStoreUrl": "https://apps.apple.com/us/app/magical-eraser/id1604022532?uo=4",
     "icon": "/assets/apps/magical-eraser/icon.jpg",
-    "description": "Magical Eraser removes distractions and unwanted elements from photos, giving users a straightforward editing tool for cleaner and more polished images.",
+    "summaryBullets": [
+      "Access to functions in this app require a subscription (FREE trial offered) - Payment will be charged to",
+      "Mark parts of the image that you want to be erased",
+      "The app uses state-of-the-art AI (artificial intelligence) to do this",
+      "You can also use the app to remove wrinkles and blemishes from images"
+    ],
     "screenshots": [
-      "/assets/apps/magical-eraser/screenshot-1.jpg",
-      "/assets/apps/magical-eraser/screenshot-2.jpg",
-      "/assets/apps/magical-eraser/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/magical-eraser/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/magical-eraser/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/magical-eraser/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Photo & Video",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.4"
+    "version": "1.4",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1440854963",
     "name": "Wall Color AI",
     "appStoreUrl": "https://apps.apple.com/us/app/wall-color-ai/id1440854963?uo=4",
     "icon": "/assets/apps/wall-color-ai/icon.jpg",
-    "description": "Wall Color AI helps users preview paint and room color changes before making decisions, making home design exploration faster, more visual, and easier to trust.",
+    "summaryBullets": [
+      "Use power of AI (Artificial Intelligence) to test different wall colors before you actually paint your walls"
+    ],
     "screenshots": [
-      "/assets/apps/wall-color-ai/screenshot-1.jpg",
-      "/assets/apps/wall-color-ai/screenshot-2.jpg",
-      "/assets/apps/wall-color-ai/screenshot-3.jpg"
+      {
+        "src": "/assets/apps/wall-color-ai/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/wall-color-ai/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/wall-color-ai/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
     ],
     "genre": "Utilities",
     "formattedPrice": "$2.99",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   },
   {
     "appId": "1499921065",
     "name": "AI Portfolio",
     "appStoreUrl": "https://apps.apple.com/us/app/ai-portfolio/id1499921065?uo=4",
     "icon": "/assets/apps/ai-portfolio/icon.jpg",
-    "description": "AI Portfolio helps users present their work and ideas in a more polished digital format, using AI-assisted organization and presentation features to make portfolios clearer and more compelling.",
-    "screenshots": [],
+    "summaryBullets": [
+      "The goal of this app is to create a portfolio of popular funds which minimizes volatility for a given average",
+      "​ The app achieves this goal by traversing the space of all possible portfolios and selecting a combination"
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/apps/ai-portfolio/screenshot-1.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/ai-portfolio/screenshot-2.jpg",
+        "width": 1242,
+        "height": 2688
+      },
+      {
+        "src": "/assets/apps/ai-portfolio/screenshot-3.jpg",
+        "width": 1242,
+        "height": 2688
+      }
+    ],
     "genre": "Finance",
     "formattedPrice": "Free",
     "sellerName": "MaaDoTaa LLC",
-    "version": "1.2"
+    "version": "1.2",
+    "platformLabel": "iPhone",
+    "isMacOnly": false
   }
 ]

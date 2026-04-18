@@ -221,17 +221,28 @@ img {
   height: auto;
 }
 
-.app-description {
+.app-summary {
   margin: 22px 0 22px;
+  padding-left: 1.2rem;
   max-width: 72ch;
   color: #24364d;
   font-size: 1.03rem;
+  display: grid;
+  gap: 10px;
+}
+
+.app-summary li {
+  padding-left: 0.2rem;
 }
 
 .screenshot-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.app-card-mac .screenshot-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .shot-frame {
@@ -254,14 +265,19 @@ img {
 
 .shot-frame img {
   width: 100%;
-  aspect-ratio: 430 / 932;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
+  background: #f7fbff;
   transform: translateY(0) scale(1);
   transition: transform 320ms ease;
 }
 
 .app-card:hover .shot-frame img {
   transform: translateY(-4px) scale(1.015);
+}
+
+.shot-frame-mac {
+  background: linear-gradient(180deg, #f7fbff 0%, #eef4fb 100%);
 }
 
 .empty-shot-state {

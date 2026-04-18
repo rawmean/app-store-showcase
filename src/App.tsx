@@ -6,12 +6,18 @@ type AppRecord = {
   name: string;
   appStoreUrl: string;
   icon: string;
-  description: string;
-  screenshots: string[];
+  summaryBullets: string[];
+  screenshots: Array<{
+    src: string;
+    width: number;
+    height: number;
+  }>;
   genre: string;
   formattedPrice: string;
   sellerName: string;
   version: string;
+  platformLabel: string;
+  isMacOnly: boolean;
 };
 
 const apps = appData as AppRecord[];
@@ -66,8 +72,8 @@ function App() {
             <span className="metric-label">approved apps showcased</span>
           </div>
           <div className="metric-card">
-            <span className="metric-value">iPhone-first</span>
-            <span className="metric-label">designed for the App Store</span>
+            <span className="metric-value">Apple platforms</span>
+            <span className="metric-label">iPhone and Mac showcase</span>
           </div>
           <div className="metric-card">
             <span className="metric-value">Curated</span>
@@ -80,7 +86,7 @@ function App() {
         {apps.map((app, index) => (
           <article
             key={app.appId}
-            className="app-card"
+            className={`app-card${app.isMacOnly ? " app-card-mac" : ""}`}
             data-reveal
             style={{ transitionDelay: `${Math.min(index * 40, 240)}ms` }}
           >
@@ -94,7 +100,7 @@ function App() {
                 />
                 <div>
                   <div className="app-kicker">
-                    {app.genre} · {app.formattedPrice}
+                    {app.platformLabel} · {app.genre} · {app.formattedPrice}
                   </div>
                   <h2>{app.name}</h2>
                   <p className="app-meta">
@@ -116,14 +122,26 @@ function App() {
               </a>
             </div>
 
-            <p className="app-description">{app.description}</p>
+            <ul className="app-summary">
+              {app.summaryBullets.map((bullet) => (
+                <li key={bullet}>{bullet}</li>
+              ))}
+            </ul>
 
             <div className="screenshot-strip">
               {app.screenshots.length > 0 ? (
                 app.screenshots.map((screenshot, shotIndex) => (
-                  <figure key={screenshot} className="shot-frame">
+                  <figure
+                    key={screenshot.src}
+                    className={`shot-frame${app.isMacOnly ? " shot-frame-mac" : ""}`}
+                    style={
+                      screenshot.width > 0 && screenshot.height > 0
+                        ? { aspectRatio: `${screenshot.width} / ${screenshot.height}` }
+                        : undefined
+                    }
+                  >
                     <img
-                      src={screenshot}
+                      src={screenshot.src}
                       alt={`${app.name} screenshot ${shotIndex + 1}`}
                       loading="lazy"
                     />
