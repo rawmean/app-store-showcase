@@ -492,10 +492,10 @@
     "appStoreUrl": "https://apps.apple.com/us/app/superhud/id1506091473?uo=4",
     "icon": "/assets/apps/superhud/icon.jpg",
     "summaryBullets": [
-      "- This app displays your speed and acceleration on your car's windshield",
       "This app displays your speed and acceleration on your car's windshield",
       "The app supports both mph and km/h units",
-      "To project the the information on your device on the windshield simply place your device on the dashboard of"
+      "To project the the information on your device on the windshield simply place your device on the dashboard of",
+      "To project on the windshield, make sure that you select the \"mirrored\" display in the app so that the"
     ],
     "screenshots": [
       {
@@ -627,9 +627,9 @@
     "icon": "/assets/apps/safedrive-for-teen-drivers/icon.jpg",
     "summaryBullets": [
       "If you have a teenage driver or any driver whose driving behavior you would like to monitor, this app is for",
-      "See what parents have said about this app in the review section *",
       "Both the Driver (e.g., a teenage driver) and the Observer (e.g., the parent of the driver) install the app",
-      "The Driver invites the Parent to observer his/her driving behavior"
+      "The Driver invites the Parent to observer his/her driving behavior",
+      "After that, the app automatically measures the driver speed and uploads it securely to iCloud"
     ],
     "screenshots": [
       {
@@ -729,10 +729,10 @@
     "appStoreUrl": "https://apps.apple.com/us/app/ask-summarize/id6446225669?uo=4",
     "icon": "/assets/apps/ask-summarize/icon.jpg",
     "summaryBullets": [
-      "A subscription is required to unlock all app features: You can choose monthly or annual subscription with",
       "Save time and effort by getting summarized articles directly from your favorite browser",
       "Article summarization can be done either within the app or by tapping the share button in your favorite web",
-      "Get instant answers to any question on your iPhone/iPad with our app powered by AI"
+      "Get instant answers to any question on your iPhone/iPad with our app powered by AI",
+      "Stay connected on-the-go with AI on your Apple Watch"
     ],
     "screenshots": [
       {
@@ -800,7 +800,6 @@
     "icon": "/assets/apps/tourtalk-for-tour-guides/icon.jpg",
     "summaryBullets": [
       "Transform the Way Tour Guides Communicate",
-      "Listeners unlock full access with a one-time 7-day pass (no auto-renewal subscription)",
       "Speakers subscribe to enable broadcasting"
     ],
     "screenshots": [
@@ -938,8 +937,7 @@
     "icon": "/assets/apps/imagetwist-images-to-video/icon.jpg",
     "summaryBullets": [
       "This app converts an image from your photo library and creates a video from it by adding various effects to",
-      "Share your creation on social media and make your image pop",
-      "One time purchase with no subscription"
+      "Share your creation on social media and make your image pop"
     ],
     "screenshots": [
       {
@@ -1009,7 +1007,7 @@
       "Create magically funny short clips which bring images to life",
       "Select the image that you want to animate from the several provided images or supply your own image",
       "Record a selfie video of yourself in the app",
-      "Access to functions in this app require a subscription (FREE trial offered)"
+      "Payment will be charged to iTunes Account at confirmation of purchase"
     ],
     "screenshots": [
       {
@@ -1041,7 +1039,7 @@
     "appStoreUrl": "https://apps.apple.com/us/app/magical-eraser/id1604022532?uo=4",
     "icon": "/assets/apps/magical-eraser/icon.jpg",
     "summaryBullets": [
-      "Access to functions in this app require a subscription (FREE trial offered) - Payment will be charged to",
+      "Terms of use: https://www.maadotaa.com/termsnew",
       "Mark parts of the image that you want to be erased",
       "The app uses state-of-the-art AI (artificial intelligence) to do this",
       "You can also use the app to remove wrinkles and blemishes from images"

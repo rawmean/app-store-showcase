@@ -89,7 +89,7 @@ function stripHeadingMarkers(value) {
 }
 
 function cleanDescriptionText(description) {
-  return description
+  const cleaned = description
     .replace(/\r/g, "")
     .replace(/\*\*/g, "")
     .replace(/`/g, "")
@@ -97,8 +97,35 @@ function cleanDescriptionText(description) {
     .replace(/•/g, "-")
     .replace(/\u2022/g, "-")
     .replace(/App Store Description/gi, "")
+    .replace(/terms of service\s*&\s*privacy policy:[^\n]+/gi, "")
+    .replace(/privacy policy:[^\n]+/gi, "")
+    .replace(/terms of service:[^\n]+/gi, "")
     .replace(/---+/g, "")
     .trim();
+
+  const filteredLines = cleaned
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => {
+      const normalized = line.toLowerCase();
+      return !(
+        normalized.includes("subscription") ||
+        normalized.includes("in-app purchase") ||
+        normalized.includes("in app purchase") ||
+        normalized.includes("terms of service") ||
+        normalized.includes("privacy policy") ||
+        normalized.includes("support url") ||
+        normalized.includes("monthly or annual") ||
+        normalized.includes("weekly or annual") ||
+        normalized.includes("unlock all app features") ||
+        normalized.includes("free trial") ||
+        normalized.includes("restore purchases") ||
+        normalized.includes("auto-renew") ||
+        normalized.includes("auto renew")
+      );
+    });
+
+  return filteredLines.join("\n").trim();
 }
 
 function splitIntoSentences(text) {
@@ -235,6 +262,9 @@ function shortenBullet(text, maxLength = 140) {
 
 function buildSummaryBullets(description) {
   const cleaned = cleanDescriptionText(description);
+  const ignoredPatterns = [
+    /see what .* have said about this app in the review section/i,
+  ];
   const paragraphs = cleaned
     .split(/\n\s*\n/)
     .map((paragraph) =>
@@ -250,17 +280,18 @@ function buildSummaryBullets(description) {
   const lines = cleaned
     .split("\n")
     .map((line) => normalizeWhitespace(stripHeadingMarkers(line)))
-    .filter(Boolean);
+    .filter((line) => Boolean(line) && !ignoredPatterns.some((pattern) => pattern.test(line)));
   const bullets = [];
 
   const introParagraph =
     paragraphs.find(
       (paragraph) =>
+        !ignoredPatterns.some((pattern) => pattern.test(paragraph)) &&
         paragraph.length > 30 &&
         !isHeadingLike(paragraph) &&
         !isStepLike(paragraph) &&
         !paragraph.startsWith("-"),
-    ) ?? paragraphs[0] ?? "";
+    ) ?? "";
 
   if (introParagraph) {
     const introSentence = splitIntoSentences(introParagraph)[0] ?? introParagraph;
@@ -271,6 +302,7 @@ function buildSummaryBullets(description) {
     .filter((line) => {
       const normalizedLine = line.replace(/^-+\s*/, "");
       return (
+        !ignoredPatterns.some((pattern) => pattern.test(normalizedLine)) &&
         !isHeadingLike(line) &&
         normalizedLine.length > 18 &&
         (line.startsWith("-") ||
@@ -291,7 +323,11 @@ function buildSummaryBullets(description) {
     }
   }
 
-  if (bullets.length < 3) {
+  if (bullets.length === 0 && featureLines[0]) {
+    bullets.push(featureLines[0]);
+  }
+
+  if (bullets.length < 3 && introParagraph) {
     const extraSentences = splitIntoSentences(introParagraph).slice(1);
     for (const sentence of extraSentences) {
       const item = shortenBullet(sentence, 110);
