@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+  <rect x="13" y="14" width="20" height="36" rx="6" fill="white" fill-opacity="0.95"/>
+  <rect x="16.5" y="19" width="13" height="3.5" rx="1.75" fill="#0C5ADB" fill-opacity="0.9"/>
+  <rect x="16.5" y="26" width="13" height="13" rx="3" fill="url(#card1)"/>
+  <rect x="16.5" y="42" width="9" height="2.8" rx="1.4" fill="#7D8EA5"/>
+  <g transform="rotate(10 43 31)">
+    <rect x="34" y="15" width="17" height="30" rx="5.5" fill="white" fill-opacity="0.92"/>
+    <rect x="37" y="19.5" width="11" height="9" rx="2.5" fill="url(#card2)"/>
+    <rect x="37" y="31" width="11" height="2.8" rx="1.4" fill="#1BB5A6"/>
+    <rect x="37" y="36.2" width="8" height="2.8" rx="1.4" fill="#8EA0B6"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="57" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C5ADB"/>
+      <stop offset="1" stop-color="#18B6A5"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="16.5" y1="26" x2="29.5" y2="39" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9FC2FF"/>
+      <stop offset="1" stop-color="#D9F2EE"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="37" y1="19.5" x2="48" y2="28.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9F2EE"/>
+      <stop offset="1" stop-color="#A8BFFF"/>
+    </linearGradient>
+  </defs>
+</svg>

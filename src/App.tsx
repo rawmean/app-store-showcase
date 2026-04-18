@@ -21,6 +21,11 @@ type AppRecord = {
 };
 
 const apps = appData as AppRecord[];
+const baseUrl = import.meta.env.BASE_URL;
+
+function withBase(path: string) {
+  return `${baseUrl}${path.replace(/^\//, "")}`;
+}
 
 function App() {
   useEffect(() => {
@@ -94,7 +99,7 @@ function App() {
               <div className="app-identity">
                 <img
                   className="app-icon"
-                  src={app.icon}
+                  src={withBase(app.icon)}
                   alt={`${app.name} icon`}
                   loading="lazy"
                 />
@@ -116,7 +121,7 @@ function App() {
                 aria-label={`Download ${app.name} from the App Store`}
               >
                 <img
-                  src="/assets/download-on-the-app-store.svg"
+                  src={withBase("/assets/download-on-the-app-store.svg")}
                   alt="Download on the App Store"
                 />
               </a>
@@ -141,7 +146,7 @@ function App() {
                     }
                   >
                     <img
-                      src={screenshot.src}
+                      src={withBase(screenshot.src)}
                       alt={`${app.name} screenshot ${shotIndex + 1}`}
                       loading="lazy"
                     />
