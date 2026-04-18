@@ -564,9 +564,7 @@ img {
   }
 
   .screenshot-strip {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 86%;
+    display: flex;
     gap: 12px;
     overflow-x: auto;
     overscroll-behavior-x: contain;
@@ -578,6 +576,7 @@ img {
 
   .shot-frame,
   .shot-frame-mac {
+    flex: 0 0 86%;
     scroll-snap-align: start;
   }
 }
