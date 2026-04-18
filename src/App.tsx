@@ -27,6 +27,10 @@ function withBase(path: string) {
   return `${baseUrl}${path.replace(/^\//, "")}`;
 }
 
+function anchorId(appId: string) {
+  return `app-${appId}`;
+}
+
 function App() {
   useEffect(() => {
     const elements = document.querySelectorAll<HTMLElement>("[data-reveal]");
@@ -87,10 +91,32 @@ function App() {
         </div>
       </header>
 
+      <section className="app-index" data-reveal>
+        <div className="app-index-grid">
+          {apps.map((app) => (
+            <a
+              key={app.appId}
+              className="app-index-item"
+              href={`#${anchorId(app.appId)}`}
+              aria-label={`Jump to ${app.name}`}
+            >
+              <img
+                className="app-index-icon"
+                src={withBase(app.icon)}
+                alt={`${app.name} icon`}
+                loading="lazy"
+              />
+              <span className="app-index-name">{app.name}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
       <main className="showcase">
         {apps.map((app, index) => (
           <article
             key={app.appId}
+            id={anchorId(app.appId)}
             className={`app-card${app.isMacOnly ? " app-card-mac" : ""}`}
             data-reveal
             style={{ transitionDelay: `${Math.min(index * 40, 240)}ms` }}

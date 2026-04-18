@@ -83,6 +83,7 @@ img {
 }
 
 .hero,
+.app-index,
 .showcase,
 .footer {
   position: relative;
@@ -155,6 +156,53 @@ img {
   display: grid;
   gap: 22px;
   margin-top: 24px;
+}
+
+.app-index {
+  margin: 22px auto 0;
+  padding: 26px clamp(18px, 3vw, 30px);
+  border: 1px solid var(--stroke);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}
+
+.app-index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 22px 18px;
+}
+
+.app-index-item {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 8px 6px;
+  text-align: center;
+  border-radius: 22px;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease;
+}
+
+.app-index-item:hover {
+  transform: translateY(-3px);
+  background: rgba(12, 90, 219, 0.04);
+}
+
+.app-index-icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 24px;
+  box-shadow: 0 12px 28px rgba(16, 32, 51, 0.14);
+}
+
+.app-index-name {
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #23364e;
 }
 
 .app-card {
@@ -331,6 +379,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .app-index-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .app-card-header {
     flex-direction: column;
   }
@@ -350,6 +402,16 @@ img {
     border-radius: 26px;
   }
 
+  .app-index {
+    padding: 18px 14px;
+    border-radius: 24px;
+  }
+
+  .app-index-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 12px;
+  }
+
   .app-card {
     border-radius: 24px;
   }
@@ -362,5 +424,11 @@ img {
     width: 64px;
     height: 64px;
     border-radius: 18px;
+  }
+
+  .app-index-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
   }
 }
