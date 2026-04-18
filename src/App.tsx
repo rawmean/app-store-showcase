@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import appData from "./data/apps.generated.json";
 
 type AppRecord = {
@@ -22,6 +22,52 @@ type AppRecord = {
 
 const apps = appData as AppRecord[];
 const baseUrl = import.meta.env.BASE_URL;
+const categoryOptions = [
+  "All",
+  "Featured",
+  "Investment",
+  "AI tools",
+  "Utilities",
+  "Health",
+  "Photography",
+  "Entertainment",
+  "Productivity",
+] as const;
+
+type CategoryOption = (typeof categoryOptions)[number];
+
+const featuredApps = new Set([
+  "WatchThis: What friends watch",
+  "Stats -- For your Tesla",
+  "NoSpamSMS: Stop Spam Messages",
+  "Climb Meter: For rock climbing",
+  "Posture Monitor",
+  "Recap: Snap & get the story",
+  "Wine List: Order confidently",
+  "FundOracle: Invest with AI",
+  "No DoomScrolling: Walk2Scroll",
+  "SafeDrive: For Teen Drivers",
+  "CanYouMeetUs: Event Creation",
+  "FoodAnalyst: Know your food",
+]);
+
+const investmentApps = new Set([
+  "AI Portfolio",
+  "FundOracle: Invest with AI",
+  "Fund Compare: for investors",
+]);
+
+const aiToolApps = new Set([
+  "FoodAnalyst: Know your food",
+  "DrPlant",
+  "Recap: Snap & get the story",
+  "Fluenta: Spanish Chat & News",
+  "Ask & Summarize",
+  "Magical Eraser",
+  "Image2Text: Textify Images",
+  "FundOracle: Invest with AI",
+  "Wine List: Order confidently",
+]);
 
 function withBase(path: string) {
   return `${baseUrl}${path.replace(/^\//, "")}`;
@@ -31,7 +77,112 @@ function anchorId(appId: string) {
   return `app-${appId}`;
 }
 
+function getCategories(app: AppRecord): Exclude<CategoryOption, "All">[] {
+  const name = app.name;
+  const haystack = `${app.name} ${app.genre} ${app.summaryBullets.join(" ")}`.toLowerCase();
+  const categories = new Set<Exclude<CategoryOption, "All">>();
+
+  if (featuredApps.has(name)) {
+    categories.add("Featured");
+  }
+
+  if (investmentApps.has(name)) {
+    categories.add("Investment");
+  }
+
+  if (aiToolApps.has(name)) {
+    categories.add("AI tools");
+  }
+
+  if (
+    haystack.includes("utility") ||
+    haystack.includes("organize") ||
+    haystack.includes("scan") ||
+    haystack.includes("filter") ||
+    haystack.includes("developer tools") ||
+    haystack.includes("travel") ||
+    app.genre === "Utilities"
+  ) {
+    categories.add("Utilities");
+  }
+
+  if (
+    haystack.includes("health") ||
+    haystack.includes("posture") ||
+    haystack.includes("fitness") ||
+    haystack.includes("wellness") ||
+    haystack.includes("breathe") ||
+    haystack.includes("food")
+  ) {
+    if (name !== "Wine List: Order confidently") {
+      categories.add("Health");
+    }
+  }
+
+  if (
+    haystack.includes("photo") ||
+    haystack.includes("image") ||
+    haystack.includes("camera") ||
+    haystack.includes("video") ||
+    haystack.includes("eraser") ||
+    haystack.includes("try on")
+  ) {
+    categories.add("Photography");
+  }
+
+  if (
+    haystack.includes("entertainment") ||
+    haystack.includes("movie") ||
+    haystack.includes("tv") ||
+    haystack.includes("game") ||
+    haystack.includes("stream") ||
+    app.genre === "Entertainment" ||
+    app.genre === "Games"
+  ) {
+    categories.add("Entertainment");
+  }
+
+  if (
+    haystack.includes("productivity") ||
+    haystack.includes("work") ||
+    haystack.includes("organize") ||
+    haystack.includes("tracker") ||
+    haystack.includes("inventory") ||
+    haystack.includes("compare") ||
+    haystack.includes("planner")
+  ) {
+    categories.add("Productivity");
+  }
+
+  if (categories.size === 0) {
+    categories.add("Utilities");
+  }
+
+  return [...categories];
+}
+
 function App() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [activeCategory, setActiveCategory] = useState<CategoryOption>("All");
+
+  const visibleApps = apps.filter((app) => {
+    const categories = getCategories(app);
+    const matchesCategory =
+      activeCategory === "All" || categories.includes(activeCategory);
+    const searchableText = [
+      app.name,
+      app.genre,
+      app.platformLabel,
+      ...app.summaryBullets,
+      ...categories,
+    ]
+      .join(" ")
+      .toLowerCase();
+    const matchesSearch = searchableText.includes(searchTerm.trim().toLowerCase());
+
+    return matchesCategory && matchesSearch;
+  });
+
   useEffect(() => {
     const elements = document.querySelectorAll<HTMLElement>("[data-reveal]");
 
@@ -54,7 +205,7 @@ function App() {
     }
 
     return () => observer.disconnect();
-  }, []);
+  }, [activeCategory, searchTerm]);
 
   return (
     <div className="page-shell">
@@ -65,35 +216,68 @@ function App() {
       <header className="hero" data-reveal>
         <div className="eyebrow">MaaDoTaa App Store Showcase</div>
         <h1>
-          A focused collection of iPhone apps designed for everyday utility,
-          creativity, and smarter routines.
+          Practical iOS/Mac apps for everyday problems, built with AI, vision,
+          and thoughtful UX.
         </h1>
         <p className="hero-copy">
-          Explore a curated selection of apps published by MaaDoTaa LLC, from
-          entertainment discovery and personal wellness to AI-powered tools,
-          travel helpers, and niche productivity utilities. Each app card below
-          includes live App Store access, original screenshots, and a concise
-          summary of what the product does best.
+          I build practical iOS/Mac apps that use AI, computer vision, and
+          thoughtful UX to solve small but real everyday problems.
         </p>
-        <div className="hero-metrics">
-          <div className="metric-card">
-            <span className="metric-value">{apps.length}</span>
-            <span className="metric-label">approved apps showcased</span>
-          </div>
-          <div className="metric-card">
-            <span className="metric-value">Apple platforms</span>
-            <span className="metric-label">iPhone and Mac showcase</span>
-          </div>
-          <div className="metric-card">
-            <span className="metric-value">Curated</span>
-            <span className="metric-label">handpicked from your live catalog</span>
-          </div>
-        </div>
+        <p className="hero-copy hero-copy-secondary">
+          This collection spans entertainment, wellness, utilities,
+          photography, and productivity, but the throughline is the same:
+          focused software that makes one specific task clearer, faster, or
+          more useful.
+        </p>
       </header>
 
+      <section className="controls-panel" data-reveal>
+        <div className="search-panel">
+          <label className="search-label" htmlFor="app-search">
+            Search apps
+          </label>
+          <div className="search-input-wrap">
+            <input
+              id="app-search"
+              className="search-input"
+              type="search"
+              value={searchTerm}
+              onChange={(event) => setSearchTerm(event.target.value)}
+              placeholder="Search by app name, feature, category, or platform"
+            />
+          </div>
+        </div>
+
+        <div className="filter-panel">
+          <span className="filter-label">Browse by category</span>
+          <div className="filter-chip-row" aria-label="App categories">
+            {categoryOptions.map((category) => (
+              <button
+                key={category}
+                type="button"
+                className={`filter-chip${activeCategory === category ? " filter-chip-active" : ""}`}
+                onClick={() => setActiveCategory(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="app-index" data-reveal>
+        <div className="section-heading">
+          <div>
+            <div className="section-kicker">Collection</div>
+            <h2>Browse the portfolio</h2>
+          </div>
+          <p>
+            Jump to any app below, or narrow the list with search and category
+            filters first.
+          </p>
+        </div>
         <div className="app-index-grid">
-          {apps.map((app) => (
+          {visibleApps.map((app) => (
             <a
               key={app.appId}
               className="app-index-item"
@@ -113,7 +297,8 @@ function App() {
       </section>
 
       <main className="showcase">
-        {apps.map((app, index) => (
+        {visibleApps.length > 0 ? (
+          visibleApps.map((app, index) => (
           <article
             key={app.appId}
             id={anchorId(app.appId)}
@@ -137,6 +322,13 @@ function App() {
                   <p className="app-meta">
                     By {app.sellerName} · Version {app.version}
                   </p>
+                  <div className="app-tag-row">
+                    {getCategories(app).map((category) => (
+                      <span key={category} className="app-tag">
+                        {category}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
               <a
@@ -190,7 +382,18 @@ function App() {
               )}
             </div>
           </article>
-        ))}
+          ))
+        ) : (
+          <section className="empty-results" data-reveal>
+            <div className="section-kicker">No matches</div>
+            <h2>Try a different search or category.</h2>
+            <p>
+              No apps matched <strong>{searchTerm || activeCategory}</strong>.
+              Broaden the query or switch back to <strong>All</strong> to see
+              the full portfolio again.
+            </p>
+          </section>
+        )}
       </main>
 
       <footer className="footer">
